@@ -13,6 +13,7 @@ from typing import Any
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
+from catalog_routes import router as catalog_router
 
 from questionnaire import QUESTIONS, QUESTIONNAIRE_VERSION, validate_questionnaire
 from colorimetry import analyze
@@ -28,6 +29,7 @@ except ImportError:
     pass
 
 app = FastAPI(title='Chroma Engine API', version='0.1.0')
+app.include_router(catalog_router)
 
 # --- CORS -------------------------------------------------------------------
 # Orígenes exactos permitidos (web, ionic serve, Capacitor iOS/Android).
