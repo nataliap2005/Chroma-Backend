@@ -1,0 +1,380 @@
+{
+ "marca": "Vogue",
+ "sitio": "https://www.cosmeticosvogue.com.co",
+ "fecha": "2026-10-27",
+ "nivel": "B",
+ "productos": [
+  {
+   "categoria": "Base",
+   "nombre": "Base Líquida Resist",
+   "url": "/maquillaje-de-rostro/base-de-maquillaje-liquida-resist-larga-duracion",
+   "tonos": [
+    [
+     "Avellana",
+     "#D4AA7A"
+    ],
+    [
+     "Avena",
+     "#E9BC9B"
+    ],
+    [
+     "Bronce",
+     "#B48D6A"
+    ],
+    [
+     "Canela",
+     "#C28558"
+    ],
+    [
+     "Capuccino",
+     "#B79675"
+    ],
+    [
+     "Caramelo",
+     "#AC816A"
+    ],
+    [
+     "Crema",
+     "#F7DEB6"
+    ],
+    [
+     "Glamour",
+     "#D6AD90"
+    ],
+    [
+     "Miel",
+     "#B18B62"
+    ],
+    [
+     "Natural",
+     "#E9BB9B"
+    ],
+    [
+     "Nuez",
+     "#C59A73"
+    ],
+    [
+     "Petalo",
+     "#DBB594"
+    ],
+    [
+     "Porcelana",
+     "#DCBB8E"
+    ],
+    [
+     "Sensual",
+     "#CFAC89"
+    ],
+    [
+     "Trigo",
+     "#EAC08E"
+    ],
+    [
+     "Vanilla",
+     "#FCD5AF"
+    ]
+   ]
+  },
+  {
+   "categoria": "Base",
+   "nombre": "Base Líquida Mate Natural",
+   "url": "/maquillaje-de-rostro/base-liquida-mate-natural",
+   "tonos": [
+    [
+     "Arena",
+     "#C5A07C"
+    ],
+    [
+     "Avellana",
+     "#CBA477"
+    ],
+    [
+     "Bronce",
+     "#AB7751"
+    ],
+    [
+     "Capuccino",
+     "#B8947C"
+    ],
+    [
+     "Champan",
+     "#CFA68A"
+    ],
+    [
+     "Crema",
+     "#F3D9C0"
+    ],
+    [
+     "Desierto",
+     "#E1AB7D"
+    ],
+    [
+     "Glamour",
+     "#ECB485"
+    ],
+    [
+     "Melocoton",
+     "#DBA76B"
+    ],
+    [
+     "Nuez",
+     "#ECC093"
+    ],
+    [
+     "Panela",
+     "#C78F5D"
+    ],
+    [
+     "Petalo",
+     "#FED5B7"
+    ],
+    [
+     "Canela",
+     "#9F6B48"
+    ],
+    [
+     "Gitano",
+     "#DCA981"
+    ],
+    [
+     "Natural",
+     "#F2CBAE"
+    ],
+    [
+     "Trigo",
+     "#FFC489"
+    ]
+   ]
+  },
+  {
+   "categoria": "Base",
+   "nombre": "Base Resist Glam",
+   "url": "/maquillaje-de-rostro/base-resist-glam",
+   "tonos": [
+    [
+     "Crema",
+     "#E9C396"
+    ],
+    [
+     "Avellana",
+     "#BC8F68"
+    ],
+    [
+     "Canela",
+     "#9B6541"
+    ],
+    [
+     "Capuccino",
+     "#CEA27B"
+    ],
+    [
+     "Caramelo",
+     "#D2A07F"
+    ],
+    [
+     "Glamour",
+     "#D09A6C"
+    ],
+    [
+     "Miel",
+     "#CB9364"
+    ],
+    [
+     "Petalo",
+     "#E3B98F"
+    ],
+    [
+     "Porcelana",
+     "#DAB185"
+    ],
+    [
+     "Trigo",
+     "#E5BB91"
+    ]
+   ]
+  },
+  {
+   "categoria": "Base",
+   "nombre": "Base Líquida Essential",
+   "url": "/maquillaje-de-rostro/base-liquida-essential",
+   "tonos": [
+    [
+     "Miel",
+     "#DB9B6D"
+    ],
+    [
+     "Avellana",
+     "#E5A074"
+    ],
+    [
+     "Calido",
+     "#E99372"
+    ],
+    [
+     "Bronce",
+     "#B7753B"
+    ],
+    [
+     "Capuccino",
+     "#E89C6B"
+    ],
+    [
+     "Natural",
+     "#F4CEBB"
+    ],
+    [
+     "Glamour",
+     "#F1B289"
+    ],
+    [
+     "Petalo",
+     "#ECAA8D"
+    ]
+   ]
+  },
+  {
+   "categoria": "Base",
+   "nombre": "Base Polvo Resist",
+   "url": "/maquillaje-de-rostro/base-polvo-resist-petalo",
+   "tonos": [
+    [
+     "Pétalo",
+     "#EEC1A2"
+    ],
+    [
+     "Avellana",
+     "#CF9E76"
+    ],
+    [
+     "Bronce",
+     "#E1A97C"
+    ],
+    [
+     "Capuccino",
+     "#EAB784"
+    ],
+    [
+     "Miel",
+     "#C59067"
+    ],
+    [
+     "Natural",
+     "#E2B585"
+    ],
+    [
+     "Sensual",
+     "#E3B88D"
+    ]
+   ]
+  },
+  {
+   "categoria": "Corrector",
+   "nombre": "Corrector Líquido Resist",
+   "url": "/maquillaje-de-rostro/corrector-de-ojos-resist",
+   "tonos": [
+    [
+     "Canela",
+     "#D3AD94"
+    ],
+    [
+     "Arena",
+     "#F3C89F"
+    ],
+    [
+     "Avena",
+     "#E9BC9B"
+    ],
+    [
+     "Crema",
+     "#F7DEB6"
+    ],
+    [
+     "Petalo",
+     "#D3AD94"
+    ],
+    [
+     "Porcelana",
+     "#E7CCAE"
+    ],
+    [
+     "Trigo",
+     "#E1C6B1"
+    ],
+    [
+     "Vainilla",
+     "#E3BB88"
+    ],
+    [
+     "Natural",
+     "#ECCDAE"
+    ]
+   ]
+  },
+  {
+   "categoria": "Corrector",
+   "nombre": "Corrector Líquido Mate Natural",
+   "url": "/maquillaje-de-rostro/corrector-mate-natural",
+   "tonos": [
+    [
+     "Arena",
+     "#E1C3AA"
+    ],
+    [
+     "Avellana",
+     "#E7C6A2"
+    ],
+    [
+     "Caramelo",
+     "#BA7F56"
+    ],
+    [
+     "Champan",
+     "#D9B79E"
+    ],
+    [
+     "Desierto",
+     "#D1A07B"
+    ],
+    [
+     "Miel",
+     "#D4A686"
+    ],
+    [
+     "Bronce",
+     "#E5B890"
+    ],
+    [
+     "Canela",
+     "#D5AC84"
+    ],
+    [
+     "Natural",
+     "#E4D0C0"
+    ],
+    [
+     "Trigo",
+     "#E7CBAD"
+    ]
+   ]
+  },
+  {
+   "categoria": "Corrector",
+   "nombre": "Corrector Essential",
+   "url": "/maquillaje-de-rostro/corrector-en-barra-essential-natural",
+   "tonos": [
+    [
+     "Natural",
+     "#C1917F"
+    ],
+    [
+     "Arena",
+     "#D0A392"
+    ],
+    [
+     "Beige",
+     "#A3795F"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+  "total": 688,
+  "duplicate_ids": [],
+  "missing_id_count": 0,
+  "required_fields_missing": 0,
+  "invalid_hex_ids": [],
+  "invalid_price_ids": [],
+  "missing_image_reference_count": 0,
+  "image_paths_outside_public_pattern": [],
+  "missing_source_url_count": 0,
+  "missing_store_url_count": 13,
+  "quality_levels": {
+    "B": 688
+  },
+  "categories": {
+    "Base": 215,
+    "Bronzer": 2,
+    "Corrector": 54,
+    "Iluminador": 8,
+    "Labial": 338,
+    "Rubor": 41,
+    "Sombras": 30
+  },
+  "notes": "No verifica HTTP, licencia de imágenes ni vigencia de precios; imágenes deben validarse en frontend."
+}

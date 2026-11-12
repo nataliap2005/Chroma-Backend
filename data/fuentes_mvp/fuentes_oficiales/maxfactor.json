@@ -1,0 +1,377 @@
+{
+ "marca": "Max Factor",
+ "sitio": "https://www.maxfactor.com",
+ "fecha": "2026-10-27",
+ "nivel": "B",
+ "nota": "Sitio oficial Latinoamérica (es-cl); la marca se vende en Colombia en Farmatodo y Falabella",
+ "productos": [
+  {
+   "categoria": "Base",
+   "nombre": "Facefinity All Day Flawless 3 in 1",
+   "url": "/es-cl/face/foundation/facefinity-all-day-flawless-3-in-1-foundation",
+   "tonos": [
+    [
+     "Caramel",
+     "#B28063"
+    ],
+    [
+     "Bronze",
+     "#C6977A"
+    ],
+    [
+     "Soft Honey",
+     "#CB9979"
+    ],
+    [
+     "Golden",
+     "#CDA68C"
+    ],
+    [
+     "Rose Beige",
+     "#C99A80"
+    ],
+    [
+     "Sand",
+     "#D5A786"
+    ],
+    [
+     "Beige",
+     "#D0A78C"
+    ],
+    [
+     "Natural",
+     "#D4AC97"
+    ],
+    [
+     "Nude",
+     "#D3A78A"
+    ],
+    [
+     "Warm Almond",
+     "#D7AE94"
+    ],
+    [
+     "Light Ivory",
+     "#D6B49C"
+    ],
+    [
+     "Pearl Beige",
+     "#E5B699"
+    ],
+    [
+     "Crystal Beige",
+     "#DDB18D"
+    ],
+    [
+     "Porcelain",
+     "#EBBBA1"
+    ]
+   ]
+  },
+  {
+   "categoria": "Base",
+   "nombre": "Lasting Performance",
+   "url": "/es-cl/face/foundation/lasting-performance-foundation",
+   "tonos": [
+    [
+     "Deep Beige",
+     "#B78B69"
+    ],
+    [
+     "Natural Bronze",
+     "#BC9274"
+    ],
+    [
+     "Honey Beige",
+     "#BF9077"
+    ],
+    [
+     "Natural Beige",
+     "#C39880"
+    ],
+    [
+     "Soft Beige",
+     "#C79A7D"
+    ],
+    [
+     "Pastelle",
+     "#C89E85"
+    ],
+    [
+     "Ivory Beige",
+     "#CAA590"
+    ],
+    [
+     "Fair",
+     "#D5B099"
+    ]
+   ]
+  },
+  {
+   "categoria": "Base",
+   "nombre": "Miracle Touch Liquid Illusion",
+   "url": "/es-cl/face/foundation/miracle-touch-liquid-illusion-foundation",
+   "tonos": [
+    [
+     "Golden",
+     "#C5997B"
+    ],
+    [
+     "Natural",
+     "#BC917B"
+    ],
+    [
+     "Blushing Beige",
+     "#CEA48E"
+    ],
+    [
+     "Warm Almond",
+     "#C69D83"
+    ],
+    [
+     "Creamy Ivory",
+     "#D6AC94"
+    ]
+   ]
+  },
+  {
+   "categoria": "Base",
+   "nombre": "Pan Stik",
+   "url": "/es-cl/face/foundation/pan-stik-foundation",
+   "tonos": [
+    [
+     "Cool Bronze",
+     "#E4B880"
+    ],
+    [
+     "Bisque Ivory",
+     "#DFB497"
+    ],
+    [
+     "Deep Olive",
+     "#E6AD94"
+    ],
+    [
+     "Medium",
+     "#CEA48E"
+    ],
+    [
+     "Olive",
+     "#F2BA97"
+    ],
+    [
+     "Fair",
+     "#D6AC94"
+    ],
+    [
+     "Cool Copper",
+     "#DFB48A"
+    ],
+    [
+     "Nouveau Beige",
+     "#ECC6A8"
+    ],
+    [
+     "True Beige",
+     "#EFD1B5"
+    ]
+   ]
+  },
+  {
+   "categoria": "Base",
+   "nombre": "Facefinity Compact",
+   "url": "/es-cl/face/foundation/facefinity-compact",
+   "tonos": [
+    [
+     "Pearl Beige",
+     "#FFC09D"
+    ],
+    [
+     "Crystal Beige",
+     "#FEC697"
+    ],
+    [
+     "Soft Sable",
+     "#AE7561"
+    ],
+    [
+     "Caramel",
+     "#C98A69"
+    ],
+    [
+     "Toffee",
+     "#CB9979"
+    ],
+    [
+     "Bronze",
+     "#B88B6F"
+    ],
+    [
+     "Golden",
+     "#CB9F81"
+    ],
+    [
+     "Sand",
+     "#BC917B"
+    ],
+    [
+     "Natural",
+     "#D0A78C"
+    ],
+    [
+     "Ivory",
+     "#D7AE94"
+    ],
+    [
+     "Porcelain",
+     "#D6AC94"
+    ]
+   ]
+  },
+  {
+   "categoria": "Base",
+   "nombre": "Smooth Effects",
+   "url": "/es-cl/face/foundation/smooth-effects-foundation",
+   "tonos": [
+    [
+     "Caramel",
+     "#B08464"
+    ],
+    [
+     "Natural Tan",
+     "#BA936C"
+    ],
+    [
+     "Bronze",
+     "#C79579"
+    ],
+    [
+     "Golden",
+     "#C99979"
+    ],
+    [
+     "Rose Beige",
+     "#CF9F7E"
+    ],
+    [
+     "Sand",
+     "#D1A180"
+    ],
+    [
+     "Buff Beige",
+     "#D4A98C"
+    ],
+    [
+     "Natural",
+     "#D6AE94"
+    ],
+    [
+     "Creamy Ivory",
+     "#DBB497"
+    ],
+    [
+     "Porcelain",
+     "#DBB69C"
+    ]
+   ]
+  },
+  {
+   "categoria": "Base",
+   "nombre": "Healthy Skin Harmony",
+   "url": "/es-cl/face/foundation/healthy-skin-harmony-foundation",
+   "tonos": [
+    [
+     "Porcelain",
+     "#EABB9E"
+    ],
+    [
+     "Soft Sable",
+     "#7E5742"
+    ],
+    [
+     "Tawny",
+     "#936440"
+    ],
+    [
+     "Toffee",
+     "#AD7857"
+    ],
+    [
+     "Caramel",
+     "#A9754E"
+    ],
+    [
+     "Bronze",
+     "#C18D68"
+    ],
+    [
+     "Honey Beige",
+     "#BF8D6D"
+    ],
+    [
+     "Soft Honey",
+     "#C3916A"
+    ],
+    [
+     "Golden",
+     "#C39273"
+    ],
+    [
+     "Rose Beige",
+     "#BE947E"
+    ],
+    [
+     "Sand",
+     "#C59577"
+    ],
+    [
+     "Beige",
+     "#D2A380"
+    ],
+    [
+     "Natural",
+     "#CD9C7F"
+    ],
+    [
+     "Nude",
+     "#D7A989"
+    ],
+    [
+     "Warm Almond",
+     "#D1A587"
+    ],
+    [
+     "Pearl Beige",
+     "#E4B394"
+    ],
+    [
+     "Crystal Beige",
+     "#E4B791"
+    ],
+    [
+     "Light Ivory",
+     "#D2A98E"
+    ]
+   ]
+  },
+  {
+   "categoria": "Corrector",
+   "nombre": "Mastertouch Concealer",
+   "url": "/es-cl/face/concealer/mastertouch-concealer",
+   "tonos": [
+    [
+     "Beige",
+     "#CB9F81"
+    ],
+    [
+     "Fair",
+     "#D7AE94"
+    ],
+    [
+     "Ivory",
+     "#DAB49D"
+    ]
+   ]
+  }
+ ]
+}
