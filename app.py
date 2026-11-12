@@ -10,10 +10,12 @@ import os
 from pathlib import Path
 from typing import Any
 
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, Header, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 from catalog_routes import router as catalog_router
+from alpha_routes import router as alpha_router, ToneOpinion
+import plans
 
 from questionnaire import QUESTIONS, QUESTIONNAIRE_VERSION, validate_questionnaire
 from colorimetry import analyze
@@ -30,6 +32,7 @@ except ImportError:
 
 app = FastAPI(title='Chroma Engine API', version='0.1.0')
 app.include_router(catalog_router)
+app.include_router(alpha_router)
 
 # --- CORS -------------------------------------------------------------------
 # Orígenes exactos permitidos (web, ionic serve, Capacitor iOS/Android).
@@ -77,6 +80,8 @@ class AdvisorPayload(BaseModel):
     budget: int = Field(ge=0, le=50_000_000)
     answers: dict[str, Any]
     owned_ids: list[str] = Field(default_factory=list, max_length=1000)
+    # Opiniones de la usuaria sobre cada tono: ajustan la compatibilidad, como en el alfa
+    feedback: dict[str, ToneOpinion] = Field(default_factory=dict, max_length=2000)
 
 
 def products() -> list[dict[str, Any]]:
@@ -100,7 +105,8 @@ def get_analysis(raw: dict[str, Any]) -> tuple[dict[str, Any], dict[str, Any]]:
 
 @app.get('/health')
 def health():
-    return {'status': 'ok', 'engine': 'python', 'catalog': 'snapshot-mvp'}
+    return {'status': 'ok', 'engine': 'python', 'catalog': 'snapshot-mvp',
+            'planes': 'activos' if plans.gateway() else 'desactivados (falta CHROMA_SUPABASE_URL)'}
 
 
 @app.get('/api/questionnaire')
@@ -120,11 +126,23 @@ def list_products():
 
 
 @app.get('/api/translator')
-def translator(product_id: str, limit: int = Query(5, ge=1, le=20), max_price: int | None = Query(None, ge=0), cheaper: bool = False):
+def translator(product_id: str, limit: int = Query(5, ge=1, le=20), max_price: int | None = Query(None, ge=0), cheaper: bool = False,
+               authorization: str | None = Header(None)):
+    gw, token = plans.gateway(), plans.token_from(authorization)
+    plan = None
+    if gw:
+        if not token:
+            raise HTTPException(401, 'Inicia sesión en la pestaña Cuenta para usar el traductor.')
+        plan = gw.my_plan(token)
+    # Solo se comparan marcas del plan de la usuaria (el tono de referencia siempre entra)
+    rows = [p for p in products() if plans.accesible(p, plan) or p['id'] == product_id]
     try:
-        return translate_shades(products(), product_id, limit=limit, max_price=max_price, only_cheaper=cheaper)
+        result = translate_shades(rows, product_id, limit=limit, max_price=max_price, only_cheaper=cheaper)
     except (ValueError, KeyError, TypeError) as exc:
         raise HTTPException(status_code=422, detail=str(exc)) from exc
+    if gw:
+        result['plan'] = gw.consume(token, 'traductor')
+    return result
 
 
 @app.get('/api/occasions')
@@ -133,15 +151,27 @@ def occasions():
 
 
 @app.post('/api/advisor')
-def advisor(payload: AdvisorPayload):
+def advisor(payload: AdvisorPayload, authorization: str | None = Header(None)):
     if payload.occasion not in OCCASIONS:
         raise HTTPException(status_code=422, detail='Ocasión inválida')
+    gw, token = plans.gateway(), plans.token_from(authorization)
+    plan = None
+    if gw:
+        if not token:
+            raise HTTPException(401, 'Inicia sesión en la pestaña Cuenta para usar el asesor.')
+        plan = gw.my_plan(token)
     answers, analysis = get_analysis(payload.answers)
     profile = {'answers': answers, 'analysis': analysis, 'season': analysis['season'], 'undertone': analysis['undertone']}
     try:
-        catalog = [shape_product(p, profile) for p in products()]
+        catalog = [shape_product(p, profile, payload.feedback[p['id']].model_dump() if p['id'] in payload.feedback else None)
+                   for p in products()]
+        # Marcas de un plan superior solo entran si ya están en la cosmetiquera
+        owned = set(payload.owned_ids)
+        catalog = [p for p in catalog if plans.accesible(p, plan) or p['id'] in owned]
         result = recommend_look(catalog, payload.owned_ids, profile, payload.occasion, payload.budget)
         result['catalog_status'] = 'mvp_snapshot'
-        return result
     except (ValueError, KeyError, TypeError) as exc:
         raise HTTPException(status_code=422, detail=str(exc)) from exc
+    if gw:
+        result['plan'] = gw.consume(token, 'looks')
+    return result
