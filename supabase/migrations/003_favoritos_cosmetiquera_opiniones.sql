@@ -1,7 +1,7 @@
--- Funciones del alfa: favoritos, cosmetiquera, opinión sobre el tono y panel del alfa.
+-- Favoritos, cosmetiquera, opinión sobre el tono y panel de resultados.
 -- Ejecutar una vez en Supabase: SQL Editor → pegar este archivo → Run.
--- Ejecutar después de 001_natalia_profiles_results.sql (usa public.colorimetry_results).
--- Los product_id son los del catálogo (CH-5001…); el catálogo vive en el backend, por eso no hay llave foránea.
+-- Ejecutar después de 001_perfiles_resultados.sql (usa public.colorimetry_results).
+-- Los product_id son los del catálogo (CH-5001…); no hay llave foránea para que una opinión sobreviva si el producto se oculta.
 
 -- Favoritos -------------------------------------------------------------------
 create table if not exists public.favorites (
@@ -57,7 +57,7 @@ create policy "opiniones_propias" on public.tone_feedback for all to authenticat
 revoke all on public.favorites, public.vanity, public.tone_feedback from anon;
 grant select, insert, update, delete on public.favorites, public.vanity, public.tone_feedback to authenticated;
 
--- Panel del alfa: datos agregados, sin nombres, correos ni ids de usuarias -----------
+-- Panel de resultados: datos agregados, sin nombres, correos ni ids de usuarias -----------
 -- El backend (POST /api/panel) hace los cálculos por categoría, marca y KR.
 create or replace function public.alpha_panel_data()
 returns jsonb

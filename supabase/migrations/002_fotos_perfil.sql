@@ -1,4 +1,4 @@
--- Ejecutar en Supabase SQL Editor después de 001_natalia_profiles_results.sql.
+-- Ejecutar en Supabase SQL Editor después de 001_perfiles_resultados.sql.
 -- Bucket privado: cada usuario podrá subir y leer solo su propia foto.
 ALTER TABLE public.profiles ADD COLUMN IF NOT EXISTS avatar_path TEXT;
 

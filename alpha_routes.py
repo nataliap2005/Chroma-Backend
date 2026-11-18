@@ -1,6 +1,6 @@
-"""Funciones del alfa: catálogo personalizado (compatibilidad) y panel de resultados.
+"""Catálogo personalizado (compatibilidad) y panel de resultados de la prueba con usuarias.
 
-La API sigue sin guardar datos de usuarias. Favoritos, cosmetiquera y opiniones viven en
+La API no guarda datos de usuarias. Favoritos, cosmetiquera y opiniones viven en
 Supabase; la app los envía en cada consulta y esta API solo calcula.
 """
 from typing import Any, Literal
@@ -9,12 +9,12 @@ from fastapi import APIRouter, Header, HTTPException
 from pydantic import BaseModel, Field
 
 import plans
-from catalog_service import load_catalog
+from catalog_service import get_products
 from colorimetry import analyze
 from questionnaire import validate_questionnaire
 from recommender import shape_product
 
-router = APIRouter(tags=['alfa'])
+router = APIRouter(tags=['resultados'])
 
 RESULTADOS_TONO = ('acertado', 'parcial', 'incorrecto')
 MOTIVOS_TONO = {'muy_claro': 'Muy claro', 'muy_oscuro': 'Muy oscuro', 'muy_rosado': 'Muy rosado (frío)',
@@ -33,7 +33,7 @@ class PersonalizedPayload(BaseModel):
 
 
 def build_profile(answers: dict[str, Any] | None) -> dict[str, Any] | None:
-    """Perfil igual al del alfa a partir de las respuestas del test; None si no hay test."""
+    """Perfil a partir de las respuestas del test; None si no hay test."""
     if not answers:
         return None
     try:
@@ -55,11 +55,11 @@ def personalize(products: list[dict[str, Any]], profile: dict[str, Any] | None,
 
 @router.post('/api/products/personalized')
 def personalized(payload: PersonalizedPayload, authorization: str | None = Header(None)):
-    """Catálogo con la compatibilidad (0-100) y sus factores, como en el alfa, y el candado de los planes."""
+    """Catálogo con la compatibilidad (0-100), sus factores y el candado de los planes."""
     gw = plans.gateway()
     plan = gw.my_plan(plans.token_from(authorization)) if gw else None
     profile = build_profile(payload.answers)
-    catalog = load_catalog()
+    catalog = get_products()
     if payload.ids is not None:
         wanted = set(payload.ids)
         catalog = [p for p in catalog if p['id'] in wanted]
@@ -68,7 +68,7 @@ def personalized(payload: PersonalizedPayload, authorization: str | None = Heade
     return {'products': shaped, 'personalized': profile is not None, 'plan': plan, 'catalog_status': 'mvp_snapshot'}
 
 
-# --------------------------------------------------------------------------- panel del alfa
+# --------------------------------------------------------------------------- panel de resultados
 
 class PanelOpinion(BaseModel):
     product_id: str
@@ -102,9 +102,9 @@ def _count(rows: list[dict[str, Any]], field: str) -> dict[str, int]:
     return {k: sum(1 for r in rows if r.get(field) == k) for k in keys}
 
 
-def panel_alfa(data: PanelPayload) -> dict[str, Any]:
-    """Mismo cálculo que el panel del alfa (app.py del MVP), sobre los datos de Supabase."""
-    catalog = {p['id']: p for p in load_catalog()}
+def panel_resultados(data: PanelPayload) -> dict[str, Any]:
+    """Indicadores KR1, KR2 y KR3 y aciertos por grupo, calculados sobre los datos agregados de Supabase."""
+    catalog = {p['id']: p for p in get_products()}
     rows = []
     for e in data.evaluaciones:
         p = catalog.get(e.product_id)
@@ -147,4 +147,4 @@ def panel_alfa(data: PanelPayload) -> dict[str, Any]:
 
 @router.post('/api/panel')
 def panel(payload: PanelPayload):
-    return panel_alfa(payload)
+    return panel_resultados(payload)

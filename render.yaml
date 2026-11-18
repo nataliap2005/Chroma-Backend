@@ -1,0 +1,34 @@
+# Render Blueprint de la API de Chroma (plan gratuito).
+# Render → New → Blueprint → elegir este repositorio. Las variables con "sync: false" se piden al crear.
+services:
+  - type: web
+    name: chroma-backend
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: CHROMA_ALLOW_LAN
+        value: "0"
+      - key: CHROMA_CORS_ORIGINS        # URL de la app, ej. https://app.tu-dominio.com
+        sync: false
+      - key: CHROMA_APP_URL             # la misma URL de la app (adonde vuelve después de pagar)
+        sync: false
+      - key: CHROMA_SUPABASE_URL
+        sync: false
+      - key: CHROMA_SUPABASE_PUBLISHABLE_KEY
+        sync: false
+      - key: CHROMA_SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: WOMPI_PUBLIC_KEY
+        sync: false
+      - key: WOMPI_INTEGRITY_SECRET
+        sync: false
+      - key: WOMPI_EVENTS_SECRET
+        sync: false
+      - key: RESEND_API_KEY
+        sync: false
+      - key: CHROMA_EMAIL_FROM
+        sync: false

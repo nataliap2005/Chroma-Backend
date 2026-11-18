@@ -1,11 +1,11 @@
-"""Planes Free, Plus y Premium: marcas por plan y cuotas mensuales (migración 005 de Supabase).
+"""Planes Free, Plus y Premium: marcas por plan y cuotas mensuales (migración 004 de Supabase).
 
 La API no guarda nada ni tiene claves privadas: reenvía a Supabase el token de la usuaria y llama a
 las funciones my_plan() y consume_quota(), que deciden con permisos de la propia usuaria.
 Solo necesita la URL del proyecto y la clave publishable (la misma que usa la app).
 
 Sin CHROMA_SUPABASE_URL / CHROMA_SUPABASE_PUBLISHABLE_KEY los planes quedan desactivados
-(todas las marcas, sin cuotas): útil para desarrollo y pruebas, no para el alfa con usuarias.
+(todas las marcas, sin cuotas): útil para desarrollo y pruebas, no para producción.
 """
 import os
 from typing import Any, Protocol
@@ -95,7 +95,7 @@ def accesible(product: dict[str, Any], plan: dict[str, Any] | None) -> bool:
 
 
 def mark(products: list[dict[str, Any]], plan: dict[str, Any] | None) -> None:
-    """Marca con candado los productos de marcas de un plan superior (como en la versión web)."""
+    """Marca con candado los productos de marcas de un plan superior."""
     for p in products:
         ok = accesible(p, plan)
         p['bloqueado'] = not ok

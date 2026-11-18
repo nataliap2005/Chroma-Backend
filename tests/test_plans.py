@@ -13,7 +13,7 @@ LIMITES = {'free': (10, 4), 'plus': (100, 60), 'premium': (300, 180)}
 
 
 class FakeGateway:
-    """Hace lo mismo que las funciones my_plan() y consume_quota() de la migración 005."""
+    """Hace lo mismo que las funciones my_plan() y consume_quota() de la migración 004."""
 
     def __init__(self, planes):
         self.planes = planes            # token -> plan

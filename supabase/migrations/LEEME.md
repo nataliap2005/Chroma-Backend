@@ -1,20 +1,27 @@
 # Migraciones de Supabase
 
-Se ejecutan en **Supabase → SQL Editor**, en este orden. Cada archivo se puede volver a ejecutar sin dañar nada.
+Se ejecutan en **Supabase → SQL Editor → New query → pegar → Run**, en este orden. Cada archivo se puede volver a ejecutar sin dañar nada.
 
-| Archivo | Qué crea | Estado |
-|---|---|---|
-| `001_natalia_profiles_results.sql` | Tablas `profiles` y `colorimetry_results`, con RLS, y el perfil automático al registrarse | Ejecutada |
-| `002_natalia_avatars.sql` | Columna `avatar_path` y bucket privado `avatars` para la foto de perfil | Ejecutada |
-| `003_alfa_favoritos_cosmetiquera_opiniones.sql` | Tablas `favorites`, `vanity` y `tone_feedback`, con RLS, y la función `alpha_panel_data()` del panel del alfa | Ejecutada |
-| `005_planes_cuotas_admin.sql` | Planes Free, Plus y Premium: plan de cada usuaria, marcas por plan, cuotas del mes y funciones de administración | **Falta ejecutar** |
-| `004_catalog_products_borrador.sql` | Tabla del catálogo en Supabase | Borrador: no ejecutar todavía (el catálogo se lee del CSV del backend) |
+| Archivo | Qué crea |
+|---|---|
+| `001_perfiles_resultados.sql` | Tablas `profiles` y `colorimetry_results` con RLS, y el perfil automático al registrarse |
+| `002_fotos_perfil.sql` | Columna `avatar_path` y bucket privado `avatars` para la foto de perfil |
+| `003_favoritos_cosmetiquera_opiniones.sql` | Tablas `favorites`, `vanity` y `tone_feedback` con RLS, y la función `alpha_panel_data()` del panel de resultados |
+| `004_planes_cuotas_admin.sql` | Planes Free, Plus y Premium: plan de cada usuaria, marcas por plan, cuotas del mes y funciones de administración |
+| `005_catalogo_pagos.sql` | Tabla `catalog_products` administrable, bucket público `product-images`, opiniones para administradoras, tabla `payments` y vencimiento del plan pagado (30 días) |
+| `006_catalogo_inicial.sql` | Carga los 688 productos iniciales en `catalog_products` (solo agrega los que falten) |
 
-Al ejecutar una migración nueva, actualiza la columna Estado.
+`006_catalogo_inicial.sql` se genera desde `data/productos_mvp.csv`:
+
+```bash
+python scripts/export_catalog_sql.py
+```
+
+Después de cargarlo, el catálogo se administra desde la app (Cuenta → Administración → Productos) y el CSV queda como respaldo para desarrollo.
 
 ## Primera administradora
 
-Después de la 005, en el SQL Editor (cambia el correo por el de la cuenta):
+Después de la `004`, con el correo de una cuenta ya registrada en la app:
 
 ```sql
 insert into public.user_plans(user_id, is_admin)
@@ -22,4 +29,15 @@ select id, true from auth.users where email = 'CORREO_DE_LA_ADMIN'
 on conflict (user_id) do update set is_admin = true;
 ```
 
-Desde ahí, las demás administradoras se nombran en la app: Cuenta → Administración.
+Las demás administradoras se nombran desde la app: Cuenta → Administración → Usuarias.
+
+## Permisos
+
+| Quién | Qué puede hacer |
+|---|---|
+| Cualquiera (sin sesión) | Leer productos activos y el plan de cada marca |
+| Usuaria con sesión | Ver y cambiar solo sus datos: perfil, test, favoritos, cosmetiquera, opiniones; leer su plan y sus pagos |
+| Administradora | Lo anterior, más: cambiar planes, nombrar administradoras, crear, editar u ocultar productos, subir fotos y leer las opiniones |
+| Servidor (`service_role`) | Registrar y confirmar pagos (función `apply_payment`) |
+
+Nadie cambia su propio plan ni su uso del mes desde la app: solo las funciones de la base de datos, que verifican quién llama.

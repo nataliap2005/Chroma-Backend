@@ -1,4 +1,4 @@
-"""Funciones del alfa: catálogo personalizado, opiniones que ajustan la compatibilidad y panel."""
+"""catálogo personalizado, opiniones que ajustan la compatibilidad y panel."""
 from fastapi.testclient import TestClient
 
 from app import app
