@@ -17,7 +17,7 @@ EVIDENCE = {
  'metal':{'plata':('temp',-1,1.3),'oro':('temp',1,1.3)},
  'white':{'puro':('temp',-1,1.1),'marfil':('temp',1,1.1)},
  'clothes':{'frios':('temp',-1,1.7),'calidos':('temp',1,1.7)},
- 'lip_temp':{'berry':('temp',-1,1.5),'coral':('temp',1,1.5)},
+ 'lip_temp':{'berry':('temp',-1,1.5),'rosa':('temp',-.7,1.1),'rojo':('temp',-.2,.5),'durazno':('temp',.7,1.1),'coral':('temp',1,1.5)},
  'blush_temp':{'rosa':('temp',-1,1.0),'durazno':('temp',1,1.0)},
  'foundation_temp':{'rosado':('temp',-1,1.4),'dorado':('temp',1,1.4),'neutro':('temp',0,0.6),'oliva':('temp',0,0.4)},
  'hair_depth': {'muy_claro':('depth',-1,0.9),'claro':('depth',-.55,0.9),'medio':('depth',.3,0.9),'oscuro':('depth',1,0.9)},

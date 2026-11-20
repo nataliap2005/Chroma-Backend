@@ -23,15 +23,15 @@ def score(product, profile=None, feedback=None):
         if points >= maximum*.7: messages.append(reason)
     depths=['claro','medio','oscuro','profundo']
     d=abs(depths.index(product['profundidad'])-depths.index(a['skin_tone']))
-    add('Profundidad del tono', [28,17,7,0][d], 28, 'Profundidad próxima a la de tu piel.')
+    add('Qué tan claro u oscuro es', [28,17,7,0][d], 28, 'Es igual de claro u oscuro que tu piel.')
     target=profile['undertone']; candidate=product['subtono']
     add('Subtono', 25 if target==candidate else 16 if 'neutro' in (target,candidate) else 5, 25,
-        'Subtono cercano al estimado en tu perfil.')
+        'Tiene el mismo matiz de fondo que tu piel (frío, cálido o neutro).')
     season=profile['season']
-    add('Colorimetría', 17 if product['estacion']==season else 13 if product['estacion'].split()[0]==season.split()[0] else 8 if candidate==target else 3, 17,
-        'Armoniza con tu familia cromática estimada.')
+    add('Tu estación de color', 17 if product['estacion']==season else 13 if product['estacion'].split()[0]==season.split()[0] else 8 if candidate==target else 3, 17,
+        'Combina con los colores de tu estación.')
     add('Tipo de piel', 10 if a.get('skin_type') in product['tipos_piel'].split(';') else 4, 10,
-        'Acabado orientativo acorde a tu tipo de piel declarado.')
+        'Va bien con tu tipo de piel.')
     add('Acabado', 10 if a['finish']==product['acabado'] else 6 if product['acabado']=='satinado' else 2, 10,
         'Tiene el acabado que prefieres.')
     budget=int(a['budget'])

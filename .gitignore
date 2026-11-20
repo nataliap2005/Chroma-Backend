@@ -4,10 +4,11 @@
 venv/
 env/
 
-# Variables de entorno
+# Variables de entorno (también sin punto, por si se crea así por error)
 .env
 .env.*
 !.env.example
+env
 
 # Cachés de Python
 __pycache__/

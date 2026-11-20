@@ -10,6 +10,7 @@ Se ejecutan en **Supabase → SQL Editor → New query → pegar → Run**, en e
 | `004_planes_cuotas_admin.sql` | Planes Free, Plus y Premium: plan de cada usuaria, marcas por plan, cuotas del mes y funciones de administración |
 | `005_catalogo_pagos.sql` | Tabla `catalog_products` administrable, bucket público `product-images`, opiniones para administradoras, tabla `payments` y vencimiento del plan pagado (30 días) |
 | `006_catalogo_inicial.sql` | Carga los 688 productos iniciales en `catalog_products` (solo agrega los que falten) |
+| `007_opiniones_looks.sql` | Tabla `look_feedback` (opinión sobre los looks del asesor: si le gusta, si lo usaría y un comentario) y la función `admin_list_look_feedback()` |
 
 `006_catalogo_inicial.sql` se genera desde `data/productos_mvp.csv`:
 
@@ -37,7 +38,7 @@ Las demás administradoras se nombran desde la app: Cuenta → Administración �
 |---|---|
 | Cualquiera (sin sesión) | Leer productos activos y el plan de cada marca |
 | Usuaria con sesión | Ver y cambiar solo sus datos: perfil, test, favoritos, cosmetiquera, opiniones; leer su plan y sus pagos |
-| Administradora | Lo anterior, más: cambiar planes, nombrar administradoras, crear, editar u ocultar productos, subir fotos y leer las opiniones |
+| Administradora | Lo anterior, más: cambiar planes, nombrar administradoras, crear, editar u ocultar productos, subir fotos y leer las opiniones sobre tonos y looks |
 | Servidor (`service_role`) | Registrar y confirmar pagos (función `apply_payment`) |
 
 Nadie cambia su propio plan ni su uso del mes desde la app: solo las funciones de la base de datos, que verifican quién llama.

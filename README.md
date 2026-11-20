@@ -175,6 +175,7 @@ Las tablas, permisos (RLS) y funciones están en `supabase/migrations/`, en orde
 | `004_planes_cuotas_admin.sql` | Planes, marcas por plan, cuotas mensuales y funciones de administración |
 | `005_catalogo_pagos.sql` | Catálogo administrable, fotos de productos, opiniones para administradoras, pagos y vencimiento del plan |
 | `006_catalogo_inicial.sql` | Los 688 productos iniciales (se genera con `python scripts/export_catalog_sql.py`) |
+| `007_opiniones_looks.sql` | Opiniones sobre los looks del asesor (le gusta, lo usaría, comentario) |
 
 Más detalle, y cómo nombrar a la primera administradora, en [supabase/migrations/LEEME.md](supabase/migrations/LEEME.md).
 
