@@ -43,13 +43,10 @@ La selección inicial de funcionalidades surgió de un análisis de alternativas
 
 ### Arquitectura del proyecto
 
-<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/7ad4ba17-c248-4d11-be22-4f47fafe57a6" />
+![Arquitectura de Chroma: flujos entre servicios](docs/diagramas/diagrama_arquitectura_Chroma_app.png)
+
 
 El diagrama presenta la arquitectura general de **Chroma App**, mostrando la comunicación entre el frontend desarrollado con Ionic React y TypeScript, y el backend construido con Python y FastAPI, ambos desplegados en Render. La información se gestiona mediante Supabase (PostgreSQL, autenticación y almacenamiento), mientras que Wompi y Resend permiten integrar pagos y correos transaccionales. Además, se incluyen las herramientas utilizadas para pruebas y monitoreo, como pytest, Vitest, Playwright y Grafana Cloud/k6.
-
-Detalle de qué información viaja entre cada servicio:
-
-![Arquitectura de Chroma: flujos entre servicios](docs/diagramas/arquitectura.png)
 
 ### Motor de colorimetría
 
@@ -76,13 +73,6 @@ Puntaje de 0 a 100 que suma seis factores, cada uno con su motivo: profundidad d
 
 Compara colores con **CIEDE2000**, implementado sin dependencias. Solo propone un tono si es de la misma categoría, tiene el mismo subtono, no tiene alertas de calidad en el dato y su diferencia de color es ΔE00 ≤ 3. Un resultado vacío es válido: Chroma no anuncia como equivalente un tono distinto.
 
-### Planes y pagos
-
-![Flujo de pago con Wompi](docs/diagramas/flujo_pago.png)
-
-- Cada pago lleva la **firma de integridad** de Wompi; los eventos solo se aceptan con la firma del secreto de eventos.
-- La API comprueba que el monto sea el del plan. Si Wompi repite el aviso, el plan no se suma dos veces.
-- Si el aviso no llega (por ejemplo, porque el servidor estaba dormido), al volver a la app se consulta el estado real en Wompi.
 
 ### Procesamiento y persistencia de datos
 
