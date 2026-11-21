@@ -8,9 +8,9 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.115%2B-009688?logo=fastapi&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-Postgres%20%2B%20RLS-3ECF8E?logo=supabase&logoColor=white)
 ![Wompi](https://img.shields.io/badge/pagos-Wompi-2C2A29)
-![Pruebas](https://img.shields.io/badge/pruebas-33%20pasan-2f6b47)
+![Pruebas](https://img.shields.io/badge/pruebas-34%20pasan-2f6b47)
 
-[Contexto](#contexto-y-objetivo) · [Qué hace](#qué-hace) · [Cómo funciona](#cómo-funciona) · [Endpoints](#endpoints) · [Empezar](#empezar) · [Pruebas](#pruebas) · [Supabase](#supabase) · [Documentación](#documentación-del-proyecto) · [Equipo](#equipo)
+[Contexto](#contexto-y-objetivo) · [Qué hace](#qué-hace) · [Cómo funciona](#cómo-funciona) · [Endpoints](#endpoints) · [Empezar](#empezar) · [Pruebas](#pruebas) · [Supabase](#supabase) · [ETL](#etl-del-catálogo) · [Modelo de IA](#modelo-de-ia-siguiente-fase) · [Publicar](#publicar) · [Documentación](#documentación-del-proyecto) · [Equipo](#equipo)
 
 </div>
 
@@ -47,6 +47,13 @@ La selección inicial de funcionalidades surgió de un análisis de alternativas
 
 El diagrama presenta la arquitectura general de **Chroma App**, mostrando la comunicación entre el frontend desarrollado con Ionic React y TypeScript, y el backend construido con Python y FastAPI, ambos desplegados en Render. La información se gestiona mediante Supabase (PostgreSQL, autenticación y almacenamiento), mientras que Wompi y Resend permiten integrar pagos y correos transaccionales. Además, se incluyen las herramientas utilizadas para pruebas y monitoreo, como pytest, Vitest, Playwright y Grafana Cloud/k6.
 
+Detalle de qué información viaja entre cada servicio:
+
+![Arquitectura de Chroma: flujos entre servicios](docs/diagramas/arquitectura.png)
+
+### Motor de colorimetría
+
+![Motor de colorimetría y compatibilidad](docs/diagramas/motor_colorimetria.png)
 
 ### Colorimetría de 12 estaciones
 
@@ -71,22 +78,7 @@ Compara colores con **CIEDE2000**, implementado sin dependencias. Solo propone u
 
 ### Planes y pagos
 
-```mermaid
-sequenceDiagram
-    participant App
-    participant API
-    participant Wompi
-    participant Supabase
-    App->>API: POST /api/payments/checkout {plan}
-    API->>Supabase: registra el pago (PENDING)
-    API-->>App: URL de Wompi firmada
-    App->>Wompi: la usuaria paga
-    Wompi->>API: evento firmado (webhook)
-    API->>Supabase: apply_payment → plan por 30 días
-    API-->>App: correo de confirmación (Resend)
-    App->>API: GET /api/payments/status?id= (al volver)
-    API->>Wompi: estado real de la transacción
-```
+![Flujo de pago con Wompi](docs/diagramas/flujo_pago.png)
 
 - Cada pago lleva la **firma de integridad** de Wompi; los eventos solo se aceptan con la firma del secreto de eventos.
 - La API comprueba que el monto sea el del plan. Si Wompi repite el aviso, el plan no se suma dos veces.
@@ -141,7 +133,9 @@ plans.py                Planes y cuotas (con el token de la usuaria)
 payments.py             Pagos con Wompi
 emails.py               Correos con Resend
 data/productos_mvp.csv  Catálogo inicial: 688 productos de 7 marcas
-data/fuentes_mvp/       Tonos oficiales tal como los publica cada marca
+data/fuentes_mvp/       Tonos oficiales tal como los publica cada marca y fotos de paletas
+etl/                    ETL del catálogo: extracción, transformación y carga (ver etl/README.md)
+docs/                   Plan del modelo de IA y diagramas (docs/diagramas/, con su generador)
 scripts/                Auditoría del catálogo y generación del SQL del catálogo
 reports/                Reporte de calidad del catálogo
 supabase/migrations/    Tablas, permisos y funciones de Supabase, en orden
@@ -186,7 +180,7 @@ Con el `.env` vacío la API funciona sola: lee el catálogo del CSV y deja plane
 .venv/bin/python -m pytest -q
 ```
 
-El conjunto de **33 pruebas automatizadas** con `pytest` cubre el cuestionario y su análisis, el catálogo y su calidad, los planes y cuotas, los pagos (firmas, montos y eventos repetidos) y la lectura del catálogo desde Supabase. En estas pruebas, **Supabase, Wompi y Resend se simulan**, por lo que no es necesario utilizar credenciales reales ni generar transacciones.
+El conjunto de **34 pruebas automatizadas** con `pytest` cubre el cuestionario y su análisis, el catálogo y su calidad, los planes y cuotas, los pagos (firmas, montos y eventos repetidos), la lectura del catálogo desde Supabase y la reproducibilidad del ETL (regenera el catálogo idéntico). En estas pruebas, **Supabase, Wompi y Resend se simulan**, por lo que no es necesario utilizar credenciales reales ni generar transacciones.
 
 Además de las pruebas de código, se documentaron comprobaciones técnicas sobre el sistema desplegado y sesiones de evaluación de usuarios:
 
@@ -200,9 +194,12 @@ Además de las pruebas de código, se documentaron comprobaciones técnicas sobr
 
 Los resultados anteriores corresponden a **períodos, escenarios y funcionalidades concretos**. Las pruebas de carga se realizaron sobre `/health` y `/api/catalog/facets`.
 
-Los objetivos, condiciones, métricas, gráficas, observaciones y mejoras realizadas están desarrollados en la carpeta **`Documentación`**, archivo **`Chroma App - Pruebas técnicas.pdf`**. Las pruebas con usuarios se distinguen de las pruebas unitarias y de integración del backend.
+Los objetivos, condiciones, métricas, gráficas, observaciones y mejoras realizadas están desarrollados en la carpeta **`Documentación`**, archivo **[Chroma App - Pruebas técnicas](Documentaci%C3%B3n/Chroma%20App%20-%20Pruebas%20t%C3%A9nicas.pdf)**. Las pruebas con usuarios se distinguen de las pruebas unitarias y de integración del backend.
 
 ## Supabase
+
+![Modelo de datos](docs/diagramas/modelo_datos.png)
+
 
 Las tablas, permisos (RLS) y funciones están en `supabase/migrations/`, en orden. Se ejecutan en **Supabase → SQL Editor**; cada archivo se puede volver a ejecutar sin dañar nada.
 
@@ -238,12 +235,31 @@ La beta corre gratis en **Render** con el dominio propio:
 
 **Plan gratuito de Render:** el servicio se duerme tras 15 minutos sin visitas y tarda cerca de un minuto en despertar. No guarda archivos en disco, lo que no afecta a Chroma porque todo vive en Supabase. El plan pagado más barato elimina la espera.
 
+## ETL del catálogo
+
+El catálogo se construyó con un ETL propio: extrae el color oficial de cada tono de las páginas de las marcas y el precio, el enlace y la venta en Colombia de las tiendas; lo transforma (subtono en CIELAB, control de calidad, equivalencias ΔE00), y lo carga en `data/productos_mvp.csv` y luego en Supabase. Los scripts y su documentación están en [etl/](etl/README.md).
+
+![ETL del catálogo](docs/diagramas/etl_catalogo.png)
+
+## Modelo de IA (siguiente fase)
+
+Hoy las recomendaciones salen de reglas explicables. Con lo que se registra al usar la app (respuestas del test, opiniones sobre tonos y looks, favoritos y cosmetiquera) se entrenará un modelo que aprenda qué tonos le funcionan de verdad a cada persona. El plan (qué predecir, qué datos recopilar, cuántos hacen falta, cómo evaluarlo y ponerlo en producción, y privacidad) está en [docs/PLAN_MODELO_IA.md](docs/PLAN_MODELO_IA.md).
+
+![Plan del modelo de IA](docs/diagramas/plan_modelo_ia.png)
+
 ## Calidad de los datos
+
+<p>
+<img src="docs/diagramas/catalogo_por_categoria.png" width="49%" alt="Catálogo por categoría" />
+<img src="docs/diagramas/catalogo_por_marca.png" width="49%" alt="Catálogo por marca" />
+</p>
+
 
 - Colores oficiales publicados por cada marca (`data/fuentes_mvp/`), con nivel de calidad por tono: `ok`, `ambiguo`, `incoherente` o `transparente`.
 - `python scripts/audit_catalog.py` revisa ids, colores, precios, imágenes y enlaces, y deja el reporte en `reports/auditoria_catalogo.json`.
 - Precios revisados a mano en tiendas de Colombia; pueden cambiar.
 - ΔE00 compara colores digitales: no garantiza que dos tonos se vean igual sobre la piel.
+- Los diagramas y gráficos se regeneran con `python docs/diagramas/generar_diagramas.py`.
 
 ## Documentación del proyecto
 
@@ -251,19 +267,29 @@ El repositorio y la documentación complementaria reúnen las decisiones estrat�
 
 | Documento | Qué contiene |
 |---|---|
-| **Data Strategy, OKR, KPI, Data Innovation Board y AHP** | Definición del problema, métricas y proceso de selección de la propuesta inicial. |
-| **Modelo de negocio y Business Model Canvas** | Propuesta de valor, planes, investigación de proveedores, costos y escenarios financieros. |
-| **`Documentación/Chroma App - Pruebas técnicas.pdf`** | Pruebas de disponibilidad, API, recorridos funcionales, carga y experiencia de usuarios, con sus evidencias. |
+| **Data Strategy, OKR, KPI, Data Innovation Board y AHP** · [PDF](Documentaci%C3%B3n/KPI%27S%20-%20OKRS%20-%20DATA%20INNOVATION%20BOARD%20-%20AHP/Estrategia%20de%20datos%2C%20indicadores%20y%20selecci%C3%B3n%20del%20MVP%20AHP.pdf) · [Excel AHP](Documentaci%C3%B3n/KPI%27S%20-%20OKRS%20-%20DATA%20INNOVATION%20BOARD%20-%20AHP/Chroma_AHP.xlsx) | Definición del problema, métricas y proceso de selección de la propuesta inicial. |
+| **Modelo de negocio y Business Model Canvas** · [PDF](Documentaci%C3%B3n/Modelo%20de%20Negocio%20y%20Modelo%20Canvas/Modelo%20Canvas%20y%20Modelo%20de%20Negocio%20-%20Chroma%20App.pdf) · [modelo financiero](Documentaci%C3%B3n/Modelo%20de%20Negocio%20y%20Modelo%20Canvas/Chroma_Modelo_Financiero.xlsx) | Propuesta de valor, planes, investigación de proveedores, costos y escenarios financieros. |
+| **Pruebas técnicas** · [PDF](Documentaci%C3%B3n/Chroma%20App%20-%20Pruebas%20t%C3%A9nicas.pdf) | Pruebas de disponibilidad, API, recorridos funcionales, carga y experiencia de usuarios, con sus evidencias. |
+| **[ETL del catálogo](etl/README.md)** | Extracción de colores oficiales y datos de tiendas, transformación y carga del catálogo. |
+| **[Plan del modelo de IA](docs/PLAN_MODELO_IA.md)** | Qué se va a predecir, qué datos se recopilan, cuántos hacen falta, evaluación y privacidad. |
 | **[Migraciones de Supabase](supabase/migrations/LEEME.md)** | Esquema relacional, políticas RLS, funciones y orden de instalación. |
+| **[Diagramas](docs/diagramas/)** | Arquitectura, modelo de datos, ETL, flujo de pago, recorrido de la usuaria y gráficos del catálogo (con su generador). |
 
-> Los nombres o rutas de los documentos externos deben ajustarse a su ubicación definitiva en GitHub. La documentación describe la evolución del proyecto, por lo que ciertas propuestas iniciales pueden diferir de la implementación actual.
+> La documentación describe la evolución del proyecto, por lo que ciertas propuestas iniciales pueden diferir de la implementación actual.
 
 ## Equipo
+
+Proyecto del curso **Data Thinking** · Universidad Autónoma de Occidente (UAO), Cali · 2026.
 
 | | Integrante | Aportes principales |
 |---|---|---|
 | 🎨 | **Natalia Paredes** · [GitHub](https://github.com/nataliap2005) | Base del proyecto, motor de colorimetría y app Ionic |
-| 🗄️ | **Mariana Cifuentes** · [GitHub](https://github.com/Mariana-Cifuentes) | Servidor, base de datos, catálogo de bases y pruebas técnicas con Grafana Cloud|
+| 🗄️ | **Mariana Cifuentes** · [GitHub](https://github.com/Mariana-Cifuentes) | Servidor, base de datos, catálogo de bases y pruebas técnicas con Grafana Cloud |
 | 🖌️ | **María Paula Pinillo** | Interfaz, tiendas y fotos de productos |
 | 💄 | **Estefanía Hernández** · [GitHub](https://github.com/HEstefaniaR) | Tonos y paletas, planes, pagos, administración y publicación de la beta |
 
+<div align="center">
+
+**Chroma** · Belleza personalizada con datos
+
+</div>

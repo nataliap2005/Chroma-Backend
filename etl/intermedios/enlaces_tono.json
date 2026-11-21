@@ -1,0 +1,648 @@
+{
+ "Vogue|Base Líquida Resist|Avena": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-liquida-vogue-resist-avena-02-30-ml-3203653/p",
+   "precio": 37050,
+   "disponible": true,
+   "nombre": "Base Liquida VOGUE Resist Avena 02 (30  ml) · Base Liquida Resist Avena 02 AVENA"
+  }
+ ],
+ "Vogue|Base Líquida Resist|Bronce": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-liquida-vogue-reno-bronce-14-30-ml-3198283/p",
+   "precio": 37050,
+   "disponible": true,
+   "nombre": "Base Liquida VOGUE Reno Bronce 14 (30  ml) · Base Liquida Base Resist Reno Bronce 14 BRONCE"
+  }
+ ],
+ "Vogue|Base Líquida Resist|Canela": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-liquida-vogue-reno-canela-16-30-ml-3198284/p",
+   "precio": 37050,
+   "disponible": true,
+   "nombre": "Base Liquida VOGUE Reno Canela 16 (30  ml) · Base Liquida Base Resist Reno Canela 16 CANELA"
+  }
+ ],
+ "Vogue|Base Líquida Resist|Capuccino": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-liquida-vogue-reno-capuccino-12-30-ml-3198280/p",
+   "precio": 37050,
+   "disponible": true,
+   "nombre": "Base Liquida VOGUE Reno Capuccino 12 (30  ml) · Base Liquida Base Resist Reno Capuccino 12 CAPUCCINO"
+  }
+ ],
+ "Vogue|Base Líquida Resist|Caramelo": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-liquida-vogue-resist-caramelo-30-ml-3203655/p",
+   "precio": 37050,
+   "disponible": true,
+   "nombre": "Base Liquida VOGUE Resist Caramelo (30  ml) · Base Liquida Resist Caramelo CARAMELO"
+  }
+ ],
+ "Vogue|Base Líquida Resist|Crema": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-liquida-vogue-resist-crema-01-30-ml-3203657/p",
+   "precio": 37000,
+   "disponible": true,
+   "nombre": "Base Liquida VOGUE Resist Crema 01 (30  ml) · Base Liquida Resist Crema 01 CREMA"
+  },
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-liquida-vogue-resist-glam-30-ml-3257521/p",
+   "precio": 38400,
+   "disponible": true,
+   "nombre": "Base liquida VOGUE Resist Glam (30  ml) · Base Liquida Resist Glam CREMA"
+  }
+ ],
+ "Vogue|Base Líquida Resist|Glamour": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-liquida-vogue-reno-glamour-06-30-ml-3198279/p",
+   "precio": 34050,
+   "disponible": true,
+   "nombre": "Base Liquida VOGUE  Reno Glamour 06 (30  ml) · Base Liquida Base Resist Reno Glamour 06 GLAMOUR"
+  }
+ ],
+ "Vogue|Base Líquida Resist|Miel": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-liquida-vogue-reno-miel-15-30-ml-3198285/p",
+   "precio": 37050,
+   "disponible": true,
+   "nombre": "Base Liquida VOGUE Reno Miel 15 (30  ml) · Base Liquida Base Resist Reno Miel 15 MIEL"
+  }
+ ],
+ "Vogue|Base Líquida Resist|Natural": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-liquida-vogue-natural-09-30-ml-3198276/p",
+   "precio": 35000,
+   "disponible": true,
+   "nombre": "Base Liquida VOGUE  Natural 09 (30  ml) · Base Liquida Base Resist Reno Natural 09 NATURAL"
+  }
+ ],
+ "Vogue|Base Líquida Resist|Nuez": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-liquida-vogue-resist-nuez-10-30-ml-3203654/p",
+   "precio": 37000,
+   "disponible": true,
+   "nombre": "Base Liquida VOGUE Resist Nuez 10 (30  ml) · Base Liquida Resist Nuez 10 NUEZ"
+  }
+ ],
+ "Vogue|Base Líquida Resist|Trigo": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-liquida-vogue-resist-trigo-04-30-ml-3203656/p",
+   "precio": 37050,
+   "disponible": true,
+   "nombre": "Base Liquida VOGUE Resist Trigo 04 (30  ml) · Base Liquida Resist Trigo 04 TRIGO"
+  }
+ ],
+ "Vogue|Base Líquida Mate Natural|Avellana": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-liquida-vogue-larga-duracion-acabado-mate-natural-30-ml-3255214/p",
+   "precio": 38500,
+   "disponible": true,
+   "nombre": "Base liquida VOGUE larga duración acabado mate natural (30  ml) · Base Liquida Glam Avellana AVELLANA"
+  }
+ ],
+ "Vogue|Base Líquida Mate Natural|Capuccino": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-liquida-vogue-larga-duracion-acabado-mate-natural-30-ml-3255213/p",
+   "precio": 38500,
+   "disponible": true,
+   "nombre": "Base liquida VOGUE larga duración acabado mate natural (30  ml) · Base Liquida Glam Capiccino CAPUCCINO"
+  }
+ ],
+ "Vogue|Base Líquida Mate Natural|Glamour": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-liquida-vogue-larga-duracion-acabado-mate-natural-30-ml-3255215/p",
+   "precio": 38500,
+   "disponible": true,
+   "nombre": "Base liquida VOGUE larga duración acabado mate natural (30  ml) · Base Liquida Glam Glameur GLAMOUR"
+  }
+ ],
+ "Vogue|Base Líquida Mate Natural|Canela": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-liquida-vogue-larga-duracion-acabado-mate-natural-30-ml-3255217/p",
+   "precio": 38500,
+   "disponible": true,
+   "nombre": "Base liquida VOGUE larga duración acabado mate natural (30  ml) · Base Liquida Glam Canela CANELA"
+  }
+ ],
+ "Vogue|Base Líquida Mate Natural|Natural": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-matte-natural-vogue-base-mate-30-ml-3228595/p",
+   "precio": 29800,
+   "disponible": true,
+   "nombre": "Base VOGUE mate natural surtido (30  ml) · BASE MATE NATURAL SURTIDO"
+  },
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-matte-natural-vogue-base-mate-30-ml-3228598/p",
+   "precio": 30850,
+   "disponible": true,
+   "nombre": "Base VOGUE mate natural (30  ml) · Base VOGUE MATE NATURAL (30  ml)"
+  },
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-matte-natural-vogue-base-mate-30-ml-3228602/p",
+   "precio": 30850,
+   "disponible": true,
+   "nombre": "Base VOGUE mate natural (30  ml) · Base VOGUE MATE NATURAL (30  ml)"
+  }
+ ],
+ "Vogue|Base Líquida Mate Natural|Trigo": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-liquida-vogue-larga-duracion-acabado-mate-natural-30-ml-3255212/p",
+   "precio": 38500,
+   "disponible": true,
+   "nombre": "Base liquida VOGUE larga duración acabado mate natural (30  ml) · Base Liquida Glam Trigo TRIGO"
+  }
+ ],
+ "Vogue|Base Líquida Essential|Bronce": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-essential-vogue-25-ml-3078143/p",
+   "precio": 15400,
+   "disponible": true,
+   "nombre": "Base VOGUE Essential (25  ml) · Base Essential BRONCE"
+  }
+ ],
+ "Vogue|Corrector Líquido Resist|Arena": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/corrector-liquido-vogue-resist-arena-5-ml-3203437/p",
+   "precio": 20850,
+   "disponible": true,
+   "nombre": "Corrector Liquido VOGUE Resist Arena (5  ml) · Corrector Liquido VOGUE Resist Arena (5  ml)"
+  }
+ ],
+ "Vogue|Corrector Líquido Resist|Avena": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/corrector-liquido-vogue-resist-avena-5-ml-3203435/p",
+   "precio": 20550,
+   "disponible": true,
+   "nombre": "Corrector Liquido VOGUE Resist Avena (5  ml) · Corrector Liquido VOGUE Resist Avena (5  ml)"
+  }
+ ],
+ "Vogue|Corrector Líquido Resist|Crema": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/corrector-liquido-vogue-resist-crema-5-ml-3203434/p",
+   "precio": 21000,
+   "disponible": true,
+   "nombre": "Corrector Liquido VOGUE Resist Crema (5  ml) · Corrector Liquido VOGUE Resist Crema (5  ml)"
+  }
+ ],
+ "Vogue|Corrector Líquido Resist|Trigo": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/corrector-liquido-vogue-resist-trigo-5-ml-3203438/p",
+   "precio": 20550,
+   "disponible": true,
+   "nombre": "Corrector Liquido VOGUE Resist Trigo (5  ml) · Corrector Liquido VOGUE Resist Trigo (5  ml)"
+  }
+ ],
+ "Vogue|Corrector Líquido Mate Natural|Champan": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/corrector-liquido-vogue-matte-natural-champan-5-ml-3229142/p",
+   "precio": 15000,
+   "disponible": true,
+   "nombre": "Corrector VOGUE matte natural champan (5  ml) · Corrector Liquido Matte Natural Champan CHAMPAN"
+  }
+ ],
+ "Vogue|Corrector Líquido Mate Natural|Desierto": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/corrector-liquido-vogue-matte-natural-desierto-5-ml-3229143/p",
+   "precio": 15000,
+   "disponible": true,
+   "nombre": "Corrector VOGUE matte natural desierto (5  ml) · Corrector VOGUE MATTE NATURALDESIERTO (5  ml)"
+  }
+ ],
+ "Vogue|Corrector Líquido Mate Natural|Miel": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/corrector-liquido-vogue-matte-natural-miel-5-ml-3229144/p",
+   "precio": 16050,
+   "disponible": true,
+   "nombre": "Corrector VOGUE matte natural miel (5  ml) · Corrector Liquido Matte Natural Miel MIEL"
+  }
+ ],
+ "Vogue|Corrector Líquido Mate Natural|Natural": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/corrector-liquido-vogue-matte-natural-desierto-5-ml-3229143/p",
+   "precio": 15000,
+   "disponible": true,
+   "nombre": "Corrector VOGUE matte natural desierto (5  ml) · Corrector VOGUE MATTE NATURALDESIERTO (5  ml)"
+  },
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/corrector-liquido-vogue-matte-natural-champan-5-ml-3229142/p",
+   "precio": 15000,
+   "disponible": true,
+   "nombre": "Corrector VOGUE matte natural champan (5  ml) · Corrector Liquido Matte Natural Champan CHAMPAN"
+  },
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/corrector-liquido-vogue-matte-natural-miel-5-ml-3229144/p",
+   "precio": 16050,
+   "disponible": true,
+   "nombre": "Corrector VOGUE matte natural miel (5  ml) · Corrector Liquido Matte Natural Miel MIEL"
+  }
+ ],
+ "Vogue|Corrector Essential|Natural": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/corrector-essential-arena-vogue-25-gr-3140829/p",
+   "precio": 10300,
+   "disponible": true,
+   "nombre": "Corrector VOGUE  (25  gr) · Corrector Essential Arena NATURAL"
+  }
+ ],
+ "Vogue|Corrector Essential|Arena": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/corrector-essential-arena-vogue-25-gr-3140829/p",
+   "precio": 10300,
+   "disponible": true,
+   "nombre": "Corrector VOGUE  (25  gr) · Corrector Essential Arena NATURAL"
+  }
+ ],
+ "Vogue|Corrector Essential|Beige": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/corrector-essential-arena-vogue-25-gr-3140829/p",
+   "precio": 10300,
+   "disponible": true,
+   "nombre": "Corrector VOGUE  (25  gr) · Corrector Essential Arena BEIGE"
+  }
+ ],
+ "Maybelline|Fit Me Fresh Tint SPF50|2.5 AS": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-maquillaje-fit-me-maybelline-spf-50-25-30-ml-3174243/p",
+   "precio": 48750,
+   "disponible": true,
+   "nombre": "Base líquida MAYBELLINE fit me fresh tint 2.5 (30  ml) · Base líquida MAYBELLINE fit me fresh tint 2.5 (30  ml)"
+  }
+ ],
+ "Maybelline|Fit Me Fresh Tint SPF50|5.6 AS": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-maquillaje-maybelline-spf-50-56-30-ml-3174244/p",
+   "precio": 48600,
+   "disponible": true,
+   "nombre": "Base líquida MAYBELLINE fit me fresh tint 5.6 (30  ml) · Base líquida MAYBELLINE fit me fresh tint 5.6 (30  ml)"
+  }
+ ],
+ "Maybelline|Fit Me Fresh Tint SPF50|9.5 AS": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-maquillaje-fit-me-maybelline-spf-50-95-30-ml-3174245/p",
+   "precio": 48750,
+   "disponible": true,
+   "nombre": "Base líquida MAYBELLINE fit me fresh tint 9.5 (30  ml) · Base líquida MAYBELLINE fit me fresh tint 9.5 (30  ml)"
+  }
+ ],
+ "Maybelline|Fit Me Fresh Tint SPF50|10.8 AS": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-maquillaje-fit-me-maybelline-spf-50-108-30-ml-3174242/p",
+   "precio": 48750,
+   "disponible": true,
+   "nombre": "Base líquida MAYBELLINE fit me fresh tint 10.8 (30  ml) · Base líquida MAYBELLINE fit me fresh tint 10.8 (30  ml)"
+  }
+ ],
+ "Maybelline|Superstay Lumi-Matte|220": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-liquida-superstay-lumi-matte-35-ml---maybelline-124171399/p",
+   "precio": 63920,
+   "disponible": true,
+   "nombre": "Base Líquida MAYBELLINE Superstay Lumi Matte 220 (35 ml) · Base Líquida MAYBELLINE Superstay Lumi Matte 220 (35 ml)"
+  }
+ ],
+ "Maybelline|Superstay Lumi-Matte|128": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-liquida-superstay-lumi-matte-35-ml---maybelline-124171299/p",
+   "precio": 63920,
+   "disponible": true,
+   "nombre": "Base Líquida Superstay Lumi Matte 35 ml - Maybelline · 128"
+  }
+ ],
+ "Maybelline|Superstay Lumi-Matte|125": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-liquida-superstay-lumi-matte-35-ml---maybelline-124171339/p",
+   "precio": 63920,
+   "disponible": true,
+   "nombre": "Base Líquida MAYBELLINE Superstay Lumi Matte 125 (35 ml) · Base Líquida MAYBELLINE Superstay Lumi Matte 125 (35 ml)"
+  }
+ ],
+ "Maybelline|Superstay Lumi-Matte|120": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-liquida-superstay-lumi-matte-35-ml---maybelline-124171285/p",
+   "precio": 63920,
+   "disponible": true,
+   "nombre": "Base Líquida MAYBELLINE Superstay Lumi Matte 120 (35 ml) · Base Líquida MAYBELLINE Superstay Lumi Matte 120 (35 ml)"
+  }
+ ],
+ "Maybelline|Fit Me Matte + Poreless|Porcelain": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-fit-me-matte-30-ml---maybelline-124171326/p",
+   "precio": 37043,
+   "disponible": true,
+   "nombre": "Base Fit Me Matte 30 ml - Maybelline · 110 Porcelain"
+  }
+ ],
+ "Maybelline|Fit Me Matte + Poreless|Natural Ivory": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-fit-me-matte-30-ml---maybelline-124171258/p",
+   "precio": 37043,
+   "disponible": true,
+   "nombre": "Base Facial MAYBELLINE Fit Me Matte Acabado Mate Control Brillo (30 ML) · 112 Natural Ivory"
+  }
+ ],
+ "Maybelline|Fit Me Matte + Poreless|Classic Ivory": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-fit-me-matte-30-ml---maybelline-124171151/p",
+   "precio": 37043,
+   "disponible": true,
+   "nombre": "Base Fit Me Matte 30 ml - Maybelline · 120 Classic Ivory"
+  }
+ ],
+ "Maybelline|Fit Me Matte + Poreless|Nude Beige": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-fit-me-matte-30-ml---maybelline-124171158/p",
+   "precio": 37043,
+   "disponible": true,
+   "nombre": "Base Facial MAYBELLINE Fit Me Matte Acabado Mate (30 ML) · 125 Nude Beige"
+  }
+ ],
+ "Maybelline|Fit Me Matte + Poreless|Natural Beige": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-fit-me-matte-30-ml---maybelline-124171130/p",
+   "precio": 37043,
+   "disponible": true,
+   "nombre": "Base MAYBELLINE Fit Me Matte + Poreless Tono Natural Beige 220 (30 ML) · Base MAYBELLINE Fit Me Matte + Poreless Tono Na"
+  }
+ ],
+ "Maybelline|Fit Me Matte + Poreless|Natural Buff": [
+  {
+   "tienda": "Falabella",
+   "url": "https://www.falabella.com.co/falabella-co/product/prod13530165/Base-de-maquillaje-Liquida-Fit-Me-Matte-Poreless-Natural-Buff-Maybelline-30-ml",
+   "precio": 56990,
+   "disponible": true,
+   "nombre": "Base de maquillaje Líquida Fit Me Matte Poreless Natural Buff 30 ml · Base de maquillaje Líquida Fit Me Matte Poreless N"
+  }
+ ],
+ "Maybelline|Instant Age Rewind Eraser|Light": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/corrector-age-rewind-6-ml---maybelline-124171005/p",
+   "precio": 51920,
+   "disponible": true,
+   "nombre": "Corrector Facial MAYBELLINE Instant Age Rewind Cobertura Natural (6 ML) · Light"
+  },
+  {
+   "tienda": "Falabella",
+   "url": "https://www.falabella.com.co/falabella-co/product/prod13530164/Corrector-de-rostro-Liquido-Instant-Age-Rewind-Warm-Light-Maybelline-6-ml",
+   "precio": 64900,
+   "disponible": true,
+   "nombre": "Corrector de rostro Líquido Instant Age Rewind Warm Light 6 ml · Corrector de rostro Líquido Instant Age Rewind Warm Lig"
+  }
+ ],
+ "Maybelline|Instant Age Rewind Eraser|Sand": [
+  {
+   "tienda": "Falabella",
+   "url": "https://www.falabella.com.co/falabella-co/product/72986649/Corrector-de-rostro-en-Crema-Instant-Age-Rewind-Sand-Maybelline-60-ml",
+   "precio": 64900,
+   "disponible": true,
+   "nombre": "Corrector de rostro en Crema Instant Age Rewind Sand 60 ml · Corrector de rostro en Crema Instant Age Rewind Sand 60 ml"
+  },
+  {
+   "tienda": "Falabella",
+   "url": "https://www.falabella.com.co/falabella-co/product/72986648/Corrector-de-rostro-en-Crema-Instant-Age-Rewind-Sand-Maybelline-60-ml",
+   "precio": 64900,
+   "disponible": true,
+   "nombre": "Corrector de rostro en Crema Instant Age Rewind Sand 60 ml · Corrector de rostro en Crema Instant Age Rewind Sand 60 ml"
+  },
+  {
+   "tienda": "Falabella",
+   "url": "https://www.falabella.com.co/falabella-co/product/72986647/Corrector-de-rostro-en-Crema-Instant-Age-Rewind-Sand-Maybelline-60-ml",
+   "precio": 64900,
+   "disponible": true,
+   "nombre": "Corrector de rostro en Crema Instant Age Rewind Sand 60 ml · Corrector de rostro en Crema Instant Age Rewind Sand 60 ml"
+  }
+ ],
+ "Maybelline|Instant Age Rewind Eraser|Medium": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/corrector-age-rewind-6-ml---maybelline-124171105/p",
+   "precio": 51920,
+   "disponible": true,
+   "nombre": "Corrector Age Rewind 6 ml - Maybelline · Medium"
+  }
+ ],
+ "Maybelline|Instant Age Rewind Eraser|Warm Light": [
+  {
+   "tienda": "Falabella",
+   "url": "https://www.falabella.com.co/falabella-co/product/prod13530164/Corrector-de-rostro-Liquido-Instant-Age-Rewind-Warm-Light-Maybelline-6-ml",
+   "precio": 64900,
+   "disponible": true,
+   "nombre": "Corrector de rostro Líquido Instant Age Rewind Warm Light 6 ml · Corrector de rostro Líquido Instant Age Rewind Warm Lig"
+  }
+ ],
+ "Maybelline|Superstay Active Wear 30H Corrector|Tono 15": [
+  {
+   "tienda": "Falabella",
+   "url": "https://www.falabella.com.co/falabella-co/product/prod13740434/Correctores-de-rostro-en-Aceite-SUPER-STAY-30-HR-CONCEALER-15-Maybelline-10-ML",
+   "precio": 75900,
+   "disponible": true,
+   "nombre": "Correctores de rostro en Aceite SUPER STAY 30 HR CONCEALER 15 10 ML · Correctores de rostro en Aceite SUPER STAY 30 HR C"
+  }
+ ],
+ "Maybelline|Superstay Active Wear 30H Corrector|Tono 25": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/corrector-ss-30-hr-concealer-25-maybelline-10-ml-3158122/p",
+   "precio": 77000,
+   "disponible": true,
+   "nombre": "Corrector MAYBELLINE super stay 30 hr 25 (10  ml) · Corrector MAYBELLINE super stay 30 hr 25 (10  ml)"
+  }
+ ],
+ "L'Oréal Paris|Infallible 24H Fresh Wear|130 True Beige": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-infallible-24h-fresh-wear---loreal-paris-124171178/p",
+   "precio": 67425,
+   "disponible": true,
+   "nombre": "Base Infallible 24h Fresh Wear - LOréal Paris · True Beige"
+  },
+  {
+   "tienda": "Falabella",
+   "url": "https://www.falabella.com.co/falabella-co/product/prod13820011/Base-de-maquillaje-Liquida-Infallible-24h-Fresh-Wear-420-True-Beige-Loreal-30-ml",
+   "precio": 89900,
+   "disponible": true,
+   "nombre": "Base de maquillaje Líquida Infallible 24h Fresh Wear 420 True Beige Loreal 30 ml · Base de maquillaje Líquida Infallible"
+  }
+ ],
+ "L'Oréal Paris|Infallible 24H Fresh Wear|140 Golden beige": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-infallible-24h-fresh-wear---loreal-paris-124171292/p",
+   "precio": 67425,
+   "disponible": true,
+   "nombre": "Base Infallible 24h Fresh Wear - LOréal Paris · Golden Beige"
+  }
+ ],
+ "Max Factor|Miracle Touch Liquid Illusion|Golden": [
+  {
+   "tienda": "Falabella",
+   "url": "https://www.falabella.com.co/falabella-co/product/132467449/Base-Max-Factor-Miracle-Pure-Tono-Golden",
+   "precio": 90900,
+   "disponible": true,
+   "nombre": "Base Miracle Pure Tono Golden · Base Miracle Pure Tono Golden"
+  }
+ ],
+ "Max Factor|Miracle Touch Liquid Illusion|Warm Almond": [
+  {
+   "tienda": "Falabella",
+   "url": "https://www.falabella.com.co/falabella-co/product/132467453/Base-Miracle-Touch-Warm-Max-Factor-Tono-Almond",
+   "precio": 88900,
+   "disponible": true,
+   "nombre": "Base Miracle Touch Warm Tono Almond · Base Miracle Touch Warm Tono Almond"
+  },
+  {
+   "tienda": "Falabella",
+   "url": "https://www.falabella.com.co/falabella-co/product/132519450/Base-Max-Factor-Miracle-Pure-Tono-Warm-Almond",
+   "precio": 90900,
+   "disponible": true,
+   "nombre": "Base Miracle Pure Tono Warm Almond · Base Miracle Pure Tono Warm Almond"
+  }
+ ],
+ "Clinique|Even Better Makeup SPF 15|CN 52 Neutral": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-even-better-makeup-spf-15---clinique-123722519/p",
+   "precio": 201100,
+   "disponible": true,
+   "nombre": "Base Even Better Makeup SPF 15 - Clinique · Neutral"
+  }
+ ],
+ "Clinique|Even Better Makeup SPF 15|CN 58 Honey": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-even-better-makeup-spf-15---clinique-123722496/p",
+   "precio": 201100,
+   "disponible": true,
+   "nombre": "Base Even Better Makeup SPF 15 - Clinique · Honey"
+  }
+ ],
+ "Clinique|Even Better Makeup SPF 15|CN 70 Vanilla": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-even-better-makeup-spf-15---clinique-123722502/p",
+   "precio": 201100,
+   "disponible": true,
+   "nombre": "Base Even Better Makeup SPF 15 - Clinique · Vanilla"
+  }
+ ],
+ "Clinique|Even Better Makeup SPF 15|CN 90 Sand": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base-even-better-makeup-spf-15-30-ml---clinique-123783057/p",
+   "precio": 201100,
+   "disponible": true,
+   "nombre": "Base Líquida CLINIQUE Even Better Makeup SPF 15 Tono Sand (30 ml) · Base Líquida CLINIQUE Even Better Makeup SPF 15 Tono"
+  }
+ ],
+ "Clinique|Even Better Clinical Serum Foundation SPF 20|CN 52 Neutral": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/even-better-clinical-serum-foundation-spf-20---clinique-123667933/p",
+   "precio": 255100,
+   "disponible": true,
+   "nombre": "Base de Maquillaje CLINIQUE Even Better Clinical Serum SPF 20 Tono Neutral 52 · Base de Maquillaje CLINIQUE Even Better "
+  }
+ ],
+ "Clinique|Even Better Clinical Serum Foundation SPF 20|CN 70 Vanilla": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/even-better-clinical-serum-foundation-spf-20---clinique-123667932/p",
+   "precio": 255100,
+   "disponible": true,
+   "nombre": "Base de Maquillaje CLINIQUE Even Better Clinical Serum SPF 20 Tono Vanilla 70 · Base de Maquillaje CLINIQUE Even Better "
+  }
+ ],
+ "Clinique|Even Better Clinical Serum Foundation SPF 20|CN 58 Honey": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/even-better-clinical-serum-foundation-spf-20---clinique-123667929/p",
+   "precio": 255100,
+   "disponible": true,
+   "nombre": "Base de Maquillaje CLINIQUE Even Better Clinical Serum SPF 20 Tono Honey 58 · Base de Maquillaje CLINIQUE Even Better Cl"
+  }
+ ],
+ "Clinique|Even Better Clinical Serum Foundation SPF 20|CN 28 Ivory": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/even-better-clinical-serum-foundation-spf-20---clinique-123667931/p",
+   "precio": 253900,
+   "disponible": true,
+   "nombre": "Base de Maquillaje CLINIQUE Even Better Clinical Serum SPF 20 Tono Ivory 28 · Base de Maquillaje CLINIQUE Even Better Cl"
+  }
+ ],
+ "Clinique|Anti-Blemish Solutions Liquid Makeup|CN 28 Ivory": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/base--liquida-anti-imperfecciones-anti-blemish-solutions™---clinique-124171808/p",
+   "precio": 211100,
+   "disponible": true,
+   "nombre": "Base Líquida CLINIQUE Anti-Blemish Solutions CN 28 Ivory · Base Líquida CLINIQUE Anti-Blemish Solutions CN 28 Ivory"
+  }
+ ],
+ "Clinique|Even Better Concealer|CN 28 Ivory": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/even-better-all-over-concealer---eraser---clinique-123667934/p",
+   "precio": 191100,
+   "disponible": true,
+   "nombre": "Even Better All-Over Concealer + Eraser - Clinique · 28 Ivory"
+  }
+ ],
+ "Clinique|Even Better Concealer|CN 52 Neutral": [
+  {
+   "tienda": "Éxito",
+   "url": "https://tienda.exito.com/even-better-all-over-concealer---eraser---clinique-123667935/p",
+   "precio": 191100,
+   "disponible": true,
+   "nombre": "Even Better All-Over Concealer + Eraser - Clinique · 52 Neutral"
+  }
+ ]
+}

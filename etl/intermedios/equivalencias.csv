@@ -1,0 +1,486 @@
+id_a,marca_a,producto_a,tono_a,id_b,marca_b,producto_b,tono_b,categoria,subtono,delta_e00
+OF-0109,Max Factor,Facefinity All Day Flawless 3 in 1,Beige,OF-0265,Vogue,Base Líquida Mate Natural,Champan,Base,neutro,0.48
+OF-0147,Max Factor,Facefinity Compact,Natural,OF-0265,Vogue,Base Líquida Mate Natural,Champan,Base,neutro,0.48
+OF-0155,Max Factor,Smooth Effects,Sand,OF-0281,Vogue,Base Resist Glam,Caramelo,Base,neutro,0.58
+OF-0008,Clinique,Even Better Makeup SPF 15,WN 12 Meringue,OF-0301,Vogue,Base Polvo Resist,Sensual,Base,calido,0.61
+OF-0027,Clinique,Even Better Clinical Serum Foundation SPF 20,WN 12 Meringue,OF-0301,Vogue,Base Polvo Resist,Sensual,Base,calido,0.61
+OF-0208,Maybelline,Superstay Lumi-Matte,119,OF-0260,Vogue,Base Líquida Resist,Vanilla,Base,calido,0.67
+OF-0192,Maybelline,Super Stay Active Wear,Buff Beige,OF-0293,Vogue,Base Líquida Essential,Glamour,Base,frio,0.69
+OF-0154,Max Factor,Smooth Effects,Rose Beige,OF-0281,Vogue,Base Resist Glam,Caramelo,Base,neutro,0.7
+OF-0106,Max Factor,Facefinity All Day Flawless 3 in 1,Golden,OF-0265,Vogue,Base Líquida Mate Natural,Champan,Base,neutro,0.75
+OF-0084,L'Oréal Paris,Infallible 24H Fresh Wear,455 Natural Buff,OF-0175,Max Factor,Healthy Skin Harmony,Pearl Beige,Base,frio,0.78
+OF-0080,L'Oréal Paris,Infallible 24H Fresh Wear,485 Golden Sun,OF-0282,Vogue,Base Resist Glam,Glamour,Base,calido,0.79
+OF-0087,L'Oréal Paris,Infallible 24H Pro Matte,101.5 Ivory Buff,OF-0246,Vogue,Base Líquida Resist,Avena,Base,neutro,0.8
+OF-0167,Max Factor,Healthy Skin Harmony,Soft Honey,OF-0299,Vogue,Base Polvo Resist,Miel,Base,calido,0.8
+OF-0079,L'Oréal Paris,Infallible 24H Fresh Wear,235 Miel/Honey,OF-0185,Maybelline,Fit Me Fresh Tint SPF50,06,Base,neutro,0.81
+OF-0008,Clinique,Even Better Makeup SPF 15,WN 12 Meringue,OF-0284,Vogue,Base Resist Glam,Petalo,Base,calido,0.82
+OF-0027,Clinique,Even Better Clinical Serum Foundation SPF 20,WN 12 Meringue,OF-0284,Vogue,Base Resist Glam,Petalo,Base,calido,0.82
+OF-0164,Max Factor,Healthy Skin Harmony,Caramel,OF-0263,Vogue,Base Líquida Mate Natural,Bronce,Base,neutro,0.82
+OF-0244,Maybelline,Superstay Active Wear 30H Corrector,Tono 25,OF-0304,Vogue,Corrector Líquido Resist,Avena,Corrector,neutro,0.87
+OF-0176,Max Factor,Healthy Skin Harmony,Crystal Beige,OF-0206,Maybelline,Superstay Lumi-Matte,125,Base,neutro,0.89
+OF-0174,Max Factor,Healthy Skin Harmony,Warm Almond,OF-0265,Vogue,Base Líquida Mate Natural,Champan,Base,neutro,0.9
+OF-0186,Maybelline,Fit Me Fresh Tint SPF50,07,OF-0267,Vogue,Base Líquida Mate Natural,Desierto,Base,neutro,0.91
+OF-0038,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 74 Beige,OF-0107,Max Factor,Facefinity All Day Flawless 3 in 1,Rose Beige,Base,frio,0.92
+OF-0111,Max Factor,Facefinity All Day Flawless 3 in 1,Nude,OF-0265,Vogue,Base Líquida Mate Natural,Champan,Base,neutro,0.94
+OF-0079,L'Oréal Paris,Infallible 24H Fresh Wear,235 Miel/Honey,OF-0155,Max Factor,Smooth Effects,Sand,Base,neutro,0.95
+OF-0050,Clinique,Daily Calm Makeup Balm,Light Medium 3,OF-0297,Vogue,Base Polvo Resist,Bronce,Base,neutro,1.0
+OF-0087,L'Oréal Paris,Infallible 24H Pro Matte,101.5 Ivory Buff,OF-0254,Vogue,Base Líquida Resist,Natural,Base,neutro,1.0
+OF-0008,Clinique,Even Better Makeup SPF 15,WN 12 Meringue,OF-0286,Vogue,Base Resist Glam,Trigo,Base,calido,1.02
+OF-0027,Clinique,Even Better Clinical Serum Foundation SPF 20,WN 12 Meringue,OF-0286,Vogue,Base Resist Glam,Trigo,Base,calido,1.02
+OF-0045,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 52 Neutral,OF-0067,L'Oréal Paris,True Match Tinted Serum,4-5 MEDIUM,Base,frio,1.02
+OF-0084,L'Oréal Paris,Infallible 24H Fresh Wear,455 Natural Buff,OF-0114,Max Factor,Facefinity All Day Flawless 3 in 1,Pearl Beige,Base,frio,1.02
+OF-0079,L'Oréal Paris,Infallible 24H Fresh Wear,235 Miel/Honey,OF-0108,Max Factor,Facefinity All Day Flawless 3 in 1,Sand,Base,neutro,1.03
+OF-0087,L'Oréal Paris,Infallible 24H Pro Matte,101.5 Ivory Buff,OF-0295,Vogue,Base Polvo Resist,Pétalo,Base,neutro,1.04
+OF-0022,Clinique,Even Better Clinical Serum Foundation SPF 20,CN 10 Alabaster,OF-0225,Maybelline,Fit Me Matte + Poreless,Light Beige,Base,frio,1.06
+OF-0033,Clinique,Beyond Perfecting Foundation + Concealer,CN 10 Alabaster,OF-0225,Maybelline,Fit Me Matte + Poreless,Light Beige,Base,frio,1.06
+OF-0186,Maybelline,Fit Me Fresh Tint SPF50,07,OF-0297,Vogue,Base Polvo Resist,Bronce,Base,neutro,1.07
+OF-0233,Maybelline,Instant Age Rewind Eraser,Sand,OF-0318,Vogue,Corrector Líquido Mate Natural,Canela,Corrector,calido,1.09
+OF-0011,Clinique,Even Better Makeup SPF 15,CN 28 Ivory,OF-0160,Max Factor,Healthy Skin Harmony,Porcelain,Base,frio,1.1
+OF-0028,Clinique,Even Better Clinical Serum Foundation SPF 20,CN 28 Ivory,OF-0160,Max Factor,Healthy Skin Harmony,Porcelain,Base,frio,1.1
+OF-0031,Clinique,Beyond Perfecting Foundation + Concealer,CN 28 Ivory,OF-0160,Max Factor,Healthy Skin Harmony,Porcelain,Base,frio,1.1
+OF-0140,Max Factor,Facefinity Compact,Crystal Beige,OF-0203,Maybelline,Superstay Lumi-Matte,220,Base,neutro,1.11
+OF-0074,L'Oréal Paris,Infallible 24H Fresh Wear,125 Naturel Rose/Natural,OF-0256,Vogue,Base Líquida Resist,Petalo,Base,calido,1.12
+OF-0065,L'Oréal Paris,True Match Tinted Serum,2-3 LIGHT,OF-0105,Max Factor,Facefinity All Day Flawless 3 in 1,Soft Honey,Base,neutro,1.15
+OF-0065,L'Oréal Paris,True Match Tinted Serum,2-3 LIGHT,OF-0143,Max Factor,Facefinity Compact,Toffee,Base,neutro,1.15
+OF-0079,L'Oréal Paris,Infallible 24H Fresh Wear,235 Miel/Honey,OF-0281,Vogue,Base Resist Glam,Caramelo,Base,neutro,1.17
+OF-0137,Max Factor,Pan Stik,Nouveau Beige,OF-0182,Maybelline,Fit Me Fresh Tint SPF50,02,Base,neutro,1.17
+OF-0005,Clinique,Even Better Makeup SPF 15,WN 38 Stone,OF-0074,L'Oréal Paris,Infallible 24H Fresh Wear,125 Naturel Rose/Natural,Base,calido,1.18
+OF-0026,Clinique,Even Better Clinical Serum Foundation SPF 20,WN 38 Stone,OF-0074,L'Oréal Paris,Infallible 24H Fresh Wear,125 Naturel Rose/Natural,Base,calido,1.18
+OF-0038,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 74 Beige,OF-0152,Max Factor,Smooth Effects,Bronze,Base,frio,1.2
+OF-0172,Max Factor,Healthy Skin Harmony,Natural,OF-0187,Maybelline,Fit Me Fresh Tint SPF50,09,Base,frio,1.21
+OF-0043,Clinique,Anti-Blemish Solutions Liquid Makeup,WN 38 Stone,OF-0074,L'Oréal Paris,Infallible 24H Fresh Wear,125 Naturel Rose/Natural,Base,calido,1.23
+OF-0115,Max Factor,Facefinity All Day Flawless 3 in 1,Crystal Beige,OF-0206,Maybelline,Superstay Lumi-Matte,125,Base,neutro,1.23
+OF-0182,Maybelline,Fit Me Fresh Tint SPF50,02,OF-0295,Vogue,Base Polvo Resist,Pétalo,Base,neutro,1.25
+OF-0102,L'Oréal Paris,True Match Eye Cream in a Concealer,Medium W5-6,OF-0309,Vogue,Corrector Líquido Resist,Vainilla,Corrector,calido,1.27
+OF-0009,Clinique,Even Better Makeup SPF 15,CN 52 Neutral,OF-0067,L'Oréal Paris,True Match Tinted Serum,4-5 MEDIUM,Base,frio,1.29
+OF-0018,Clinique,Even Better Clinical Serum Foundation SPF 20,CN 52 Neutral,OF-0067,L'Oréal Paris,True Match Tinted Serum,4-5 MEDIUM,Base,frio,1.29
+OF-0030,Clinique,Beyond Perfecting Foundation + Concealer,CN 52 Neutral,OF-0067,L'Oréal Paris,True Match Tinted Serum,4-5 MEDIUM,Base,frio,1.29
+OF-0081,L'Oréal Paris,Infallible 24H Fresh Wear,300 Ambre/Amber,OF-0117,Max Factor,Lasting Performance,Deep Beige,Base,calido,1.29
+OF-0185,Maybelline,Fit Me Fresh Tint SPF50,06,OF-0281,Vogue,Base Resist Glam,Caramelo,Base,neutro,1.29
+OF-0116,Max Factor,Facefinity All Day Flawless 3 in 1,Porcelain,OF-0219,Maybelline,Fit Me Matte + Poreless,Natural Buff,Base,frio,1.33
+OF-0042,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 28 Ivory,OF-0083,L'Oréal Paris,Infallible 24H Fresh Wear,110 Vanille Rose,Base,frio,1.34
+OF-0015,Clinique,Even Better Makeup SPF 15,WN 04 Bone,OF-0138,Max Factor,Pan Stik,True Beige,Base,calido,1.35
+OF-0054,Clinique,Even Better Concealer,CN 28 Ivory,OF-0238,Maybelline,Instant Age Rewind Eraser,Light Honey,Corrector,frio,1.35
+OF-0155,Max Factor,Smooth Effects,Sand,OF-0185,Maybelline,Fit Me Fresh Tint SPF50,06,Base,neutro,1.36
+OF-0083,L'Oréal Paris,Infallible 24H Fresh Wear,110 Vanille Rose,OF-0215,Maybelline,Fit Me Matte + Poreless,Buff Beige,Base,frio,1.37
+OF-0205,Maybelline,Superstay Lumi-Matte,128,OF-0300,Vogue,Base Polvo Resist,Natural,Base,calido,1.37
+OF-0065,L'Oréal Paris,True Match Tinted Serum,2-3 LIGHT,OF-0154,Max Factor,Smooth Effects,Rose Beige,Base,neutro,1.38
+OF-0189,Maybelline,Fit Me Fresh Tint SPF50,5.6 AS,OF-0291,Vogue,Base Líquida Essential,Capuccino,Base,frio,1.38
+OF-0019,Clinique,Even Better Clinical Serum Foundation SPF 20,CN 20 Fair,OF-0181,Maybelline,Fit Me Fresh Tint SPF50,01,Base,frio,1.39
+OF-0205,Maybelline,Superstay Lumi-Matte,128,OF-0298,Vogue,Base Polvo Resist,Capuccino,Base,calido,1.39
+OF-0065,L'Oréal Paris,True Match Tinted Serum,2-3 LIGHT,OF-0153,Max Factor,Smooth Effects,Golden,Base,neutro,1.4
+OF-0137,Max Factor,Pan Stik,Nouveau Beige,OF-0275,Vogue,Base Líquida Mate Natural,Natural,Base,neutro,1.4
+OF-0140,Max Factor,Facefinity Compact,Crystal Beige,OF-0228,Maybelline,Fit Me Matte + Poreless,Creamy Beige,Base,neutro,1.4
+OF-0011,Clinique,Even Better Makeup SPF 15,CN 28 Ivory,OF-0216,Maybelline,Fit Me Matte + Poreless,Natural Beige,Base,frio,1.41
+OF-0028,Clinique,Even Better Clinical Serum Foundation SPF 20,CN 28 Ivory,OF-0216,Maybelline,Fit Me Matte + Poreless,Natural Beige,Base,frio,1.41
+OF-0031,Clinique,Beyond Perfecting Foundation + Concealer,CN 28 Ivory,OF-0216,Maybelline,Fit Me Matte + Poreless,Natural Beige,Base,frio,1.41
+OF-0037,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 40 Cream Chamois,OF-0084,L'Oréal Paris,Infallible 24H Fresh Wear,455 Natural Buff,Base,frio,1.41
+OF-0008,Clinique,Even Better Makeup SPF 15,WN 12 Meringue,OF-0205,Maybelline,Superstay Lumi-Matte,128,Base,calido,1.42
+OF-0027,Clinique,Even Better Clinical Serum Foundation SPF 20,WN 12 Meringue,OF-0205,Maybelline,Superstay Lumi-Matte,128,Base,calido,1.42
+OF-0205,Maybelline,Superstay Lumi-Matte,128,OF-0301,Vogue,Base Polvo Resist,Sensual,Base,calido,1.43
+OF-0080,L'Oréal Paris,Infallible 24H Fresh Wear,485 Golden Sun,OF-0296,Vogue,Base Polvo Resist,Avellana,Base,calido,1.44
+OF-0049,Clinique,Daily Calm Makeup Balm,Light Medium 2,OF-0268,Vogue,Base Líquida Mate Natural,Glamour,Base,neutro,1.45
+OF-0088,L'Oréal Paris,Infallible 24H Pro Matte,102 Shell Beige,OF-0294,Vogue,Base Líquida Essential,Petalo,Base,frio,1.46
+OF-0204,Maybelline,Superstay Lumi-Matte,132,OF-0276,Vogue,Base Líquida Mate Natural,Trigo,Base,calido,1.46
+OF-0076,L'Oréal Paris,Infallible 24H Fresh Wear,200 Sable Dore/Golden,OF-0258,Vogue,Base Líquida Resist,Sensual,Base,calido,1.47
+OF-0050,Clinique,Daily Calm Makeup Balm,Light Medium 3,OF-0267,Vogue,Base Líquida Mate Natural,Desierto,Base,neutro,1.49
+OF-0065,L'Oréal Paris,True Match Tinted Serum,2-3 LIGHT,OF-0281,Vogue,Base Resist Glam,Caramelo,Base,neutro,1.5
+OF-0079,L'Oréal Paris,Infallible 24H Fresh Wear,235 Miel/Honey,OF-0154,Max Factor,Smooth Effects,Rose Beige,Base,neutro,1.5
+OF-0079,L'Oréal Paris,Infallible 24H Fresh Wear,235 Miel/Honey,OF-0173,Max Factor,Healthy Skin Harmony,Nude,Base,neutro,1.5
+OF-0079,L'Oréal Paris,Infallible 24H Fresh Wear,235 Miel/Honey,OF-0174,Max Factor,Healthy Skin Harmony,Warm Almond,Base,neutro,1.51
+OF-0160,Max Factor,Healthy Skin Harmony,Porcelain,OF-0216,Maybelline,Fit Me Matte + Poreless,Natural Beige,Base,frio,1.51
+OF-0087,L'Oréal Paris,Infallible 24H Pro Matte,101.5 Ivory Buff,OF-0182,Maybelline,Fit Me Fresh Tint SPF50,02,Base,neutro,1.52
+OF-0041,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 70 Vanilla,OF-0172,Max Factor,Healthy Skin Harmony,Natural,Base,frio,1.53
+OF-0081,L'Oréal Paris,Infallible 24H Fresh Wear,300 Ambre/Amber,OF-0278,Vogue,Base Resist Glam,Avellana,Base,calido,1.53
+OF-0019,Clinique,Even Better Clinical Serum Foundation SPF 20,CN 20 Fair,OF-0134,Max Factor,Pan Stik,Olive,Base,frio,1.55
+OF-0041,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 70 Vanilla,OF-0187,Maybelline,Fit Me Fresh Tint SPF50,09,Base,frio,1.57
+OF-0037,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 40 Cream Chamois,OF-0157,Max Factor,Smooth Effects,Natural,Base,frio,1.58
+OF-0037,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 40 Cream Chamois,OF-0112,Max Factor,Facefinity All Day Flawless 3 in 1,Warm Almond,Base,frio,1.59
+OF-0037,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 40 Cream Chamois,OF-0148,Max Factor,Facefinity Compact,Ivory,Base,frio,1.59
+OF-0205,Maybelline,Superstay Lumi-Matte,128,OF-0286,Vogue,Base Resist Glam,Trigo,Base,calido,1.6
+OF-0075,L'Oréal Paris,Infallible 24H Fresh Wear,140 Golden beige,OF-0261,Vogue,Base Líquida Mate Natural,Arena,Base,calido,1.61
+OF-0038,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 74 Beige,OF-0172,Max Factor,Healthy Skin Harmony,Natural,Base,frio,1.63
+OF-0186,Maybelline,Fit Me Fresh Tint SPF50,07,OF-0274,Vogue,Base Líquida Mate Natural,Gitano,Base,neutro,1.64
+OF-0205,Maybelline,Superstay Lumi-Matte,128,OF-0284,Vogue,Base Resist Glam,Petalo,Base,calido,1.64
+OF-0043,Clinique,Anti-Blemish Solutions Liquid Makeup,WN 38 Stone,OF-0256,Vogue,Base Líquida Resist,Petalo,Base,calido,1.65
+OF-0173,Max Factor,Healthy Skin Harmony,Nude,OF-0252,Vogue,Base Líquida Resist,Glamour,Base,neutro,1.65
+OF-0234,Maybelline,Instant Age Rewind Eraser,Medium,OF-0304,Vogue,Corrector Líquido Resist,Avena,Corrector,neutro,1.65
+OF-0008,Clinique,Even Better Makeup SPF 15,WN 12 Meringue,OF-0300,Vogue,Base Polvo Resist,Natural,Base,calido,1.67
+OF-0027,Clinique,Even Better Clinical Serum Foundation SPF 20,WN 12 Meringue,OF-0300,Vogue,Base Polvo Resist,Natural,Base,calido,1.67
+OF-0041,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 70 Vanilla,OF-0107,Max Factor,Facefinity All Day Flawless 3 in 1,Rose Beige,Base,frio,1.67
+OF-0040,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 10 Alabaster,OF-0225,Maybelline,Fit Me Matte + Poreless,Light Beige,Base,frio,1.68
+OF-0066,L'Oréal Paris,True Match Tinted Serum,3-4 LIGHT-MEDIUM,OF-0119,Max Factor,Lasting Performance,Honey Beige,Base,frio,1.69
+OF-0078,L'Oréal Paris,Infallible 24H Fresh Wear,470 Radiant Honey,OF-0261,Vogue,Base Líquida Mate Natural,Arena,Base,calido,1.69
+OF-0038,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 74 Beige,OF-0187,Maybelline,Fit Me Fresh Tint SPF50,09,Base,frio,1.7
+OF-0145,Max Factor,Facefinity Compact,Golden,OF-0281,Vogue,Base Resist Glam,Caramelo,Base,neutro,1.7
+OF-0050,Clinique,Daily Calm Makeup Balm,Light Medium 3,OF-0186,Maybelline,Fit Me Fresh Tint SPF50,07,Base,neutro,1.71
+OF-0152,Max Factor,Smooth Effects,Bronze,OF-0187,Maybelline,Fit Me Fresh Tint SPF50,09,Base,frio,1.71
+OF-0011,Clinique,Even Better Makeup SPF 15,CN 28 Ivory,OF-0114,Max Factor,Facefinity All Day Flawless 3 in 1,Pearl Beige,Base,frio,1.73
+OF-0028,Clinique,Even Better Clinical Serum Foundation SPF 20,CN 28 Ivory,OF-0114,Max Factor,Facefinity All Day Flawless 3 in 1,Pearl Beige,Base,frio,1.73
+OF-0031,Clinique,Beyond Perfecting Foundation + Concealer,CN 28 Ivory,OF-0114,Max Factor,Facefinity All Day Flawless 3 in 1,Pearl Beige,Base,frio,1.73
+OF-0108,Max Factor,Facefinity All Day Flawless 3 in 1,Sand,OF-0185,Maybelline,Fit Me Fresh Tint SPF50,06,Base,neutro,1.73
+OF-0038,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 74 Beige,OF-0104,Max Factor,Facefinity All Day Flawless 3 in 1,Bronze,Base,frio,1.74
+OF-0111,Max Factor,Facefinity All Day Flawless 3 in 1,Nude,OF-0252,Vogue,Base Líquida Resist,Glamour,Base,neutro,1.74
+OF-0154,Max Factor,Smooth Effects,Rose Beige,OF-0185,Maybelline,Fit Me Fresh Tint SPF50,06,Base,neutro,1.75
+OF-0167,Max Factor,Healthy Skin Harmony,Soft Honey,OF-0278,Vogue,Base Resist Glam,Avellana,Base,calido,1.76
+OF-0012,Clinique,Even Better Makeup SPF 15,CN 70 Vanilla,OF-0067,L'Oréal Paris,True Match Tinted Serum,4-5 MEDIUM,Base,frio,1.77
+OF-0020,Clinique,Even Better Clinical Serum Foundation SPF 20,CN 70 Vanilla,OF-0067,L'Oréal Paris,True Match Tinted Serum,4-5 MEDIUM,Base,frio,1.77
+OF-0035,Clinique,Beyond Perfecting Foundation + Concealer,CN 70 Vanilla,OF-0067,L'Oréal Paris,True Match Tinted Serum,4-5 MEDIUM,Base,frio,1.77
+OF-0117,Max Factor,Lasting Performance,Deep Beige,OF-0247,Vogue,Base Líquida Resist,Bronce,Base,calido,1.77
+OF-0088,L'Oréal Paris,Infallible 24H Pro Matte,102 Shell Beige,OF-0223,Maybelline,Fit Me Matte + Poreless,Warm Honey,Base,frio,1.78
+OF-0109,Max Factor,Facefinity All Day Flawless 3 in 1,Beige,OF-0252,Vogue,Base Líquida Resist,Glamour,Base,neutro,1.78
+OF-0147,Max Factor,Facefinity Compact,Natural,OF-0252,Vogue,Base Líquida Resist,Glamour,Base,neutro,1.78
+OF-0040,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 10 Alabaster,OF-0198,Maybelline,Super Stay Active Wear,Warm Nude,Base,frio,1.79
+OF-0040,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 10 Alabaster,OF-0214,Maybelline,Fit Me Matte + Poreless,Warm Nude,Base,frio,1.79
+OF-0051,Clinique,Daily Calm Makeup Balm,Light Medium 1,OF-0297,Vogue,Base Polvo Resist,Bronce,Base,neutro,1.8
+OF-0104,Max Factor,Facefinity All Day Flawless 3 in 1,Bronze,OF-0187,Maybelline,Fit Me Fresh Tint SPF50,09,Base,frio,1.8
+OF-0077,L'Oréal Paris,Infallible 24H Fresh Wear,465 Sand,OF-0261,Vogue,Base Líquida Mate Natural,Arena,Base,calido,1.81
+OF-0065,L'Oréal Paris,True Match Tinted Serum,2-3 LIGHT,OF-0155,Max Factor,Smooth Effects,Sand,Base,neutro,1.82
+OF-0079,L'Oréal Paris,Infallible 24H Fresh Wear,235 Miel/Honey,OF-0111,Max Factor,Facefinity All Day Flawless 3 in 1,Nude,Base,neutro,1.82
+OF-0108,Max Factor,Facefinity All Day Flawless 3 in 1,Sand,OF-0265,Vogue,Base Líquida Mate Natural,Champan,Base,neutro,1.82
+OF-0131,Max Factor,Pan Stik,Bisque Ivory,OF-0184,Maybelline,Fit Me Fresh Tint SPF50,05,Base,neutro,1.83
+OF-0040,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 10 Alabaster,OF-0216,Maybelline,Fit Me Matte + Poreless,Natural Beige,Base,frio,1.87
+OF-0043,Clinique,Anti-Blemish Solutions Liquid Makeup,WN 38 Stone,OF-0285,Vogue,Base Resist Glam,Porcelana,Base,calido,1.87
+OF-0158,Max Factor,Smooth Effects,Creamy Ivory,OF-0252,Vogue,Base Líquida Resist,Glamour,Base,neutro,1.87
+OF-0101,L'Oréal Paris,True Match Eye Cream in a Concealer,Light W3-4,OF-0309,Vogue,Corrector Líquido Resist,Vainilla,Corrector,calido,1.88
+OF-0107,Max Factor,Facefinity All Day Flawless 3 in 1,Rose Beige,OF-0187,Maybelline,Fit Me Fresh Tint SPF50,09,Base,frio,1.88
+OF-0173,Max Factor,Healthy Skin Harmony,Nude,OF-0265,Vogue,Base Líquida Mate Natural,Champan,Base,neutro,1.88
+OF-0038,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 74 Beige,OF-0120,Max Factor,Lasting Performance,Natural Beige,Base,frio,1.89
+OF-0085,L'Oréal Paris,Infallible 24H Pro Matte,103 Natural Buff,OF-0288,Vogue,Base Líquida Essential,Avellana,Base,frio,1.89
+OF-0049,Clinique,Daily Calm Makeup Balm,Light Medium 2,OF-0267,Vogue,Base Líquida Mate Natural,Desierto,Base,neutro,1.9
+OF-0052,Clinique,Daily Calm Makeup Balm,Medium,OF-0091,L'Oréal Paris,Infallible 24H Pro Matte,106 Sun Beige,Base,calido,1.9
+OF-0182,Maybelline,Fit Me Fresh Tint SPF50,02,OF-0275,Vogue,Base Líquida Mate Natural,Natural,Base,neutro,1.9
+OF-0213,Maybelline,Fit Me Matte + Poreless,Nude Beige,OF-0286,Vogue,Base Resist Glam,Trigo,Base,calido,1.9
+OF-0116,Max Factor,Facefinity All Day Flawless 3 in 1,Porcelain,OF-0216,Maybelline,Fit Me Matte + Poreless,Natural Beige,Base,frio,1.92
+OF-0174,Max Factor,Healthy Skin Harmony,Warm Almond,OF-0281,Vogue,Base Resist Glam,Caramelo,Base,neutro,1.92
+OF-0189,Maybelline,Fit Me Fresh Tint SPF50,5.6 AS,OF-0288,Vogue,Base Líquida Essential,Avellana,Base,frio,1.92
+OF-0051,Clinique,Daily Calm Makeup Balm,Light Medium 1,OF-0268,Vogue,Base Líquida Mate Natural,Glamour,Base,neutro,1.94
+OF-0019,Clinique,Even Better Clinical Serum Foundation SPF 20,CN 20 Fair,OF-0160,Max Factor,Healthy Skin Harmony,Porcelain,Base,frio,1.95
+OF-0083,L'Oréal Paris,Infallible 24H Fresh Wear,110 Vanille Rose,OF-0116,Max Factor,Facefinity All Day Flawless 3 in 1,Porcelain,Base,frio,1.95
+OF-0083,L'Oréal Paris,Infallible 24H Fresh Wear,110 Vanille Rose,OF-0219,Maybelline,Fit Me Matte + Poreless,Natural Buff,Base,frio,1.95
+OF-0171,Max Factor,Healthy Skin Harmony,Beige,OF-0280,Vogue,Base Resist Glam,Capuccino,Base,calido,1.95
+OF-0116,Max Factor,Facefinity All Day Flawless 3 in 1,Porcelain,OF-0215,Maybelline,Fit Me Matte + Poreless,Buff Beige,Base,frio,1.96
+OF-0241,Maybelline,Superstay Active Wear 30H Corrector,Tono 15,OF-0310,Vogue,Corrector Líquido Resist,Natural,Corrector,calido,1.96
+OF-0205,Maybelline,Superstay Lumi-Matte,128,OF-0259,Vogue,Base Líquida Resist,Trigo,Base,calido,1.97
+OF-0232,Maybelline,Instant Age Rewind Eraser,Light,OF-0310,Vogue,Corrector Líquido Resist,Natural,Corrector,calido,1.97
+OF-0200,Maybelline,Superstay Lumi-Matte,330,OF-0271,Vogue,Base Líquida Mate Natural,Panela,Base,calido,1.98
+OF-0117,Max Factor,Lasting Performance,Deep Beige,OF-0278,Vogue,Base Resist Glam,Avellana,Base,calido,1.99
+OF-0051,Clinique,Daily Calm Makeup Balm,Light Medium 1,OF-0188,Maybelline,Fit Me Fresh Tint SPF50,2.5 AS,Base,neutro,2.0
+OF-0051,Clinique,Daily Calm Makeup Balm,Light Medium 1,OF-0267,Vogue,Base Líquida Mate Natural,Desierto,Base,neutro,2.0
+OF-0082,L'Oréal Paris,Infallible 24H Fresh Wear,320 Caramel/Toffee,OF-0199,Maybelline,Superstay Lumi-Matte,340,Base,frio,2.0
+OF-0042,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 28 Ivory,OF-0198,Maybelline,Super Stay Active Wear,Warm Nude,Base,frio,2.01
+OF-0042,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 28 Ivory,OF-0214,Maybelline,Fit Me Matte + Poreless,Warm Nude,Base,frio,2.01
+OF-0045,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 52 Neutral,OF-0156,Max Factor,Smooth Effects,Buff Beige,Base,frio,2.01
+OF-0066,L'Oréal Paris,True Match Tinted Serum,3-4 LIGHT-MEDIUM,OF-0126,Max Factor,Miracle Touch Liquid Illusion,Natural,Base,frio,2.01
+OF-0066,L'Oréal Paris,True Match Tinted Serum,3-4 LIGHT-MEDIUM,OF-0146,Max Factor,Facefinity Compact,Sand,Base,frio,2.01
+OF-0171,Max Factor,Healthy Skin Harmony,Beige,OF-0296,Vogue,Base Polvo Resist,Avellana,Base,calido,2.01
+OF-0182,Maybelline,Fit Me Fresh Tint SPF50,02,OF-0246,Vogue,Base Líquida Resist,Avena,Base,neutro,2.01
+OF-0001,Clinique,Even Better Makeup SPF 15,CN 02 Breeze,OF-0292,Vogue,Base Líquida Essential,Natural,Base,frio,2.02
+OF-0005,Clinique,Even Better Makeup SPF 15,WN 38 Stone,OF-0256,Vogue,Base Líquida Resist,Petalo,Base,calido,2.03
+OF-0026,Clinique,Even Better Clinical Serum Foundation SPF 20,WN 38 Stone,OF-0256,Vogue,Base Líquida Resist,Petalo,Base,calido,2.03
+OF-0075,L'Oréal Paris,Infallible 24H Fresh Wear,140 Golden beige,OF-0258,Vogue,Base Líquida Resist,Sensual,Base,calido,2.03
+OF-0081,L'Oréal Paris,Infallible 24H Fresh Wear,300 Ambre/Amber,OF-0247,Vogue,Base Líquida Resist,Bronce,Base,calido,2.03
+OF-0096,L'Oréal Paris,Infallible More Than a Concealer,325 Bisque,OF-0179,Max Factor,Mastertouch Concealer,Fair,Corrector,frio,2.03
+OF-0115,Max Factor,Facefinity All Day Flawless 3 in 1,Crystal Beige,OF-0184,Maybelline,Fit Me Fresh Tint SPF50,05,Base,neutro,2.03
+OF-0081,L'Oréal Paris,Infallible 24H Fresh Wear,300 Ambre/Amber,OF-0167,Max Factor,Healthy Skin Harmony,Soft Honey,Base,calido,2.05
+OF-0151,Max Factor,Smooth Effects,Natural Tan,OF-0278,Vogue,Base Resist Glam,Avellana,Base,calido,2.05
+OF-0232,Maybelline,Instant Age Rewind Eraser,Light,OF-0303,Vogue,Corrector Líquido Resist,Arena,Corrector,calido,2.05
+OF-0105,Max Factor,Facefinity All Day Flawless 3 in 1,Soft Honey,OF-0281,Vogue,Base Resist Glam,Caramelo,Base,neutro,2.06
+OF-0108,Max Factor,Facefinity All Day Flawless 3 in 1,Sand,OF-0281,Vogue,Base Resist Glam,Caramelo,Base,neutro,2.06
+OF-0143,Max Factor,Facefinity Compact,Toffee,OF-0281,Vogue,Base Resist Glam,Caramelo,Base,neutro,2.06
+OF-0145,Max Factor,Facefinity Compact,Golden,OF-0265,Vogue,Base Líquida Mate Natural,Champan,Base,neutro,2.06
+OF-0040,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 10 Alabaster,OF-0183,Maybelline,Fit Me Fresh Tint SPF50,03,Base,frio,2.07
+OF-0131,Max Factor,Pan Stik,Bisque Ivory,OF-0252,Vogue,Base Líquida Resist,Glamour,Base,neutro,2.07
+OF-0097,L'Oréal Paris,Infallible More Than a Concealer,327 Cashmere,OF-0238,Maybelline,Instant Age Rewind Eraser,Light Honey,Corrector,frio,2.08
+OF-0160,Max Factor,Healthy Skin Harmony,Porcelain,OF-0219,Maybelline,Fit Me Matte + Poreless,Natural Buff,Base,frio,2.08
+OF-0042,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 28 Ivory,OF-0116,Max Factor,Facefinity All Day Flawless 3 in 1,Porcelain,Base,frio,2.09
+OF-0184,Maybelline,Fit Me Fresh Tint SPF50,05,OF-0254,Vogue,Base Líquida Resist,Natural,Base,neutro,2.09
+OF-0185,Maybelline,Fit Me Fresh Tint SPF50,06,OF-0274,Vogue,Base Líquida Mate Natural,Gitano,Base,neutro,2.09
+OF-0194,Maybelline,Super Stay Active Wear,Natural Beige,OF-0268,Vogue,Base Líquida Mate Natural,Glamour,Base,neutro,2.09
+OF-0043,Clinique,Anti-Blemish Solutions Liquid Makeup,WN 38 Stone,OF-0301,Vogue,Base Polvo Resist,Sensual,Base,calido,2.1
+OF-0076,L'Oréal Paris,Infallible 24H Fresh Wear,200 Sable Dore/Golden,OF-0261,Vogue,Base Líquida Mate Natural,Arena,Base,calido,2.1
+OF-0108,Max Factor,Facefinity All Day Flawless 3 in 1,Sand,OF-0252,Vogue,Base Líquida Resist,Glamour,Base,neutro,2.1
+OF-0008,Clinique,Even Better Makeup SPF 15,WN 12 Meringue,OF-0298,Vogue,Base Polvo Resist,Capuccino,Base,calido,2.12
+OF-0027,Clinique,Even Better Clinical Serum Foundation SPF 20,WN 12 Meringue,OF-0298,Vogue,Base Polvo Resist,Capuccino,Base,calido,2.12
+OF-0037,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 40 Cream Chamois,OF-0175,Max Factor,Healthy Skin Harmony,Pearl Beige,Base,frio,2.12
+OF-0173,Max Factor,Healthy Skin Harmony,Nude,OF-0185,Maybelline,Fit Me Fresh Tint SPF50,06,Base,neutro,2.13
+OF-0043,Clinique,Anti-Blemish Solutions Liquid Makeup,WN 38 Stone,OF-0284,Vogue,Base Resist Glam,Petalo,Base,calido,2.14
+OF-0054,Clinique,Even Better Concealer,CN 28 Ivory,OF-0237,Maybelline,Instant Age Rewind Eraser,Fair,Corrector,frio,2.14
+OF-0176,Max Factor,Healthy Skin Harmony,Crystal Beige,OF-0246,Vogue,Base Líquida Resist,Avena,Base,neutro,2.14
+OF-0037,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 40 Cream Chamois,OF-0156,Max Factor,Smooth Effects,Buff Beige,Base,frio,2.17
+OF-0048,Clinique,Anti-Blemish Solutions Liquid Makeup,WN 76 Toasted Wheat,OF-0283,Vogue,Base Resist Glam,Miel,Base,calido,2.17
+OF-0131,Max Factor,Pan Stik,Bisque Ivory,OF-0254,Vogue,Base Líquida Resist,Natural,Base,neutro,2.17
+OF-0062,Clinique,Even Better Concealer,CN 20 Fair,OF-0238,Maybelline,Instant Age Rewind Eraser,Light Honey,Corrector,frio,2.18
+OF-0084,L'Oréal Paris,Infallible 24H Fresh Wear,455 Natural Buff,OF-0112,Max Factor,Facefinity All Day Flawless 3 in 1,Warm Almond,Base,frio,2.19
+OF-0084,L'Oréal Paris,Infallible 24H Fresh Wear,455 Natural Buff,OF-0148,Max Factor,Facefinity Compact,Ivory,Base,frio,2.19
+OF-0178,Max Factor,Mastertouch Concealer,Beige,OF-0316,Vogue,Corrector Líquido Mate Natural,Miel,Corrector,neutro,2.19
+OF-0012,Clinique,Even Better Makeup SPF 15,CN 70 Vanilla,OF-0156,Max Factor,Smooth Effects,Buff Beige,Base,frio,2.2
+OF-0020,Clinique,Even Better Clinical Serum Foundation SPF 20,CN 70 Vanilla,OF-0156,Max Factor,Smooth Effects,Buff Beige,Base,frio,2.2
+OF-0035,Clinique,Beyond Perfecting Foundation + Concealer,CN 70 Vanilla,OF-0156,Max Factor,Smooth Effects,Buff Beige,Base,frio,2.2
+OF-0084,L'Oréal Paris,Infallible 24H Fresh Wear,455 Natural Buff,OF-0160,Max Factor,Healthy Skin Harmony,Porcelain,Base,frio,2.2
+OF-0108,Max Factor,Facefinity All Day Flawless 3 in 1,Sand,OF-0274,Vogue,Base Líquida Mate Natural,Gitano,Base,neutro,2.21
+OF-0138,Max Factor,Pan Stik,True Beige,OF-0266,Vogue,Base Líquida Mate Natural,Crema,Base,calido,2.21
+OF-0174,Max Factor,Healthy Skin Harmony,Warm Almond,OF-0252,Vogue,Base Líquida Resist,Glamour,Base,neutro,2.21
+OF-0217,Maybelline,Fit Me Matte + Poreless,True Beige,OF-0293,Vogue,Base Líquida Essential,Glamour,Base,frio,2.21
+OF-0022,Clinique,Even Better Clinical Serum Foundation SPF 20,CN 10 Alabaster,OF-0183,Maybelline,Fit Me Fresh Tint SPF50,03,Base,frio,2.22
+OF-0033,Clinique,Beyond Perfecting Foundation + Concealer,CN 10 Alabaster,OF-0183,Maybelline,Fit Me Fresh Tint SPF50,03,Base,frio,2.22
+OF-0137,Max Factor,Pan Stik,Nouveau Beige,OF-0295,Vogue,Base Polvo Resist,Pétalo,Base,neutro,2.22
+OF-0151,Max Factor,Smooth Effects,Natural Tan,OF-0249,Vogue,Base Líquida Resist,Capuccino,Base,calido,2.22
+OF-0153,Max Factor,Smooth Effects,Golden,OF-0281,Vogue,Base Resist Glam,Caramelo,Base,neutro,2.22
+OF-0080,L'Oréal Paris,Infallible 24H Fresh Wear,485 Golden Sun,OF-0283,Vogue,Base Resist Glam,Miel,Base,calido,2.23
+OF-0114,Max Factor,Facefinity All Day Flawless 3 in 1,Pearl Beige,OF-0219,Maybelline,Fit Me Matte + Poreless,Natural Buff,Base,frio,2.23
+OF-0140,Max Factor,Facefinity Compact,Crystal Beige,OF-0207,Maybelline,Superstay Lumi-Matte,120,Base,neutro,2.23
+OF-0213,Maybelline,Fit Me Matte + Poreless,Nude Beige,OF-0284,Vogue,Base Resist Glam,Petalo,Base,calido,2.23
+OF-0048,Clinique,Anti-Blemish Solutions Liquid Makeup,WN 76 Toasted Wheat,OF-0299,Vogue,Base Polvo Resist,Miel,Base,calido,2.24
+OF-0106,Max Factor,Facefinity All Day Flawless 3 in 1,Golden,OF-0252,Vogue,Base Líquida Resist,Glamour,Base,neutro,2.24
+OF-0142,Max Factor,Facefinity Compact,Caramel,OF-0224,Maybelline,Fit Me Matte + Poreless,Toffee,Base,frio,2.24
+OF-0176,Max Factor,Healthy Skin Harmony,Crystal Beige,OF-0184,Maybelline,Fit Me Fresh Tint SPF50,05,Base,neutro,2.24
+OF-0011,Clinique,Even Better Makeup SPF 15,CN 28 Ivory,OF-0116,Max Factor,Facefinity All Day Flawless 3 in 1,Porcelain,Base,frio,2.25
+OF-0028,Clinique,Even Better Clinical Serum Foundation SPF 20,CN 28 Ivory,OF-0116,Max Factor,Facefinity All Day Flawless 3 in 1,Porcelain,Base,frio,2.25
+OF-0031,Clinique,Beyond Perfecting Foundation + Concealer,CN 28 Ivory,OF-0116,Max Factor,Facefinity All Day Flawless 3 in 1,Porcelain,Base,frio,2.25
+OF-0041,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 70 Vanilla,OF-0152,Max Factor,Smooth Effects,Bronze,Base,frio,2.25
+OF-0079,L'Oréal Paris,Infallible 24H Fresh Wear,235 Miel/Honey,OF-0145,Max Factor,Facefinity Compact,Golden,Base,neutro,2.25
+OF-0139,Max Factor,Facefinity Compact,Pearl Beige,OF-0217,Maybelline,Fit Me Matte + Poreless,True Beige,Base,frio,2.25
+OF-0151,Max Factor,Smooth Effects,Natural Tan,OF-0247,Vogue,Base Líquida Resist,Bronce,Base,calido,2.25
+OF-0079,L'Oréal Paris,Infallible 24H Fresh Wear,235 Miel/Honey,OF-0274,Vogue,Base Líquida Mate Natural,Gitano,Base,neutro,2.26
+OF-0087,L'Oréal Paris,Infallible 24H Pro Matte,101.5 Ivory Buff,OF-0137,Max Factor,Pan Stik,Nouveau Beige,Base,neutro,2.26
+OF-0162,Max Factor,Healthy Skin Harmony,Tawny,OF-0279,Vogue,Base Resist Glam,Canela,Base,neutro,2.26
+OF-0065,L'Oréal Paris,True Match Tinted Serum,2-3 LIGHT,OF-0121,Max Factor,Lasting Performance,Soft Beige,Base,neutro,2.27
+OF-0200,Maybelline,Superstay Lumi-Matte,330,OF-0283,Vogue,Base Resist Glam,Miel,Base,calido,2.27
+OF-0011,Clinique,Even Better Makeup SPF 15,CN 28 Ivory,OF-0084,L'Oréal Paris,Infallible 24H Fresh Wear,455 Natural Buff,Base,frio,2.28
+OF-0028,Clinique,Even Better Clinical Serum Foundation SPF 20,CN 28 Ivory,OF-0084,L'Oréal Paris,Infallible 24H Fresh Wear,455 Natural Buff,Base,frio,2.28
+OF-0031,Clinique,Beyond Perfecting Foundation + Concealer,CN 28 Ivory,OF-0084,L'Oréal Paris,Infallible 24H Fresh Wear,455 Natural Buff,Base,frio,2.28
+OF-0047,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 58 Honey,OF-0067,L'Oréal Paris,True Match Tinted Serum,4-5 MEDIUM,Base,frio,2.29
+OF-0083,L'Oréal Paris,Infallible 24H Fresh Wear,110 Vanille Rose,OF-0222,Maybelline,Fit Me Matte + Poreless,Sun Beige,Base,frio,2.29
+OF-0118,Max Factor,Lasting Performance,Natural Bronze,OF-0264,Vogue,Base Líquida Mate Natural,Capuccino,Base,neutro,2.29
+OF-0004,Clinique,Even Better Makeup SPF 15,WN 46 Golden Neutral,OF-0301,Vogue,Base Polvo Resist,Sensual,Base,calido,2.3
+OF-0022,Clinique,Even Better Clinical Serum Foundation SPF 20,CN 10 Alabaster,OF-0216,Maybelline,Fit Me Matte + Poreless,Natural Beige,Base,frio,2.3
+OF-0033,Clinique,Beyond Perfecting Foundation + Concealer,CN 10 Alabaster,OF-0216,Maybelline,Fit Me Matte + Poreless,Natural Beige,Base,frio,2.3
+OF-0046,Clinique,Anti-Blemish Solutions Liquid Makeup,WN 46 Golden Neutral,OF-0301,Vogue,Base Polvo Resist,Sensual,Base,calido,2.3
+OF-0065,L'Oréal Paris,True Match Tinted Serum,2-3 LIGHT,OF-0145,Max Factor,Facefinity Compact,Golden,Base,neutro,2.3
+OF-0065,L'Oréal Paris,True Match Tinted Serum,2-3 LIGHT,OF-0185,Maybelline,Fit Me Fresh Tint SPF50,06,Base,neutro,2.3
+OF-0116,Max Factor,Facefinity All Day Flawless 3 in 1,Porcelain,OF-0183,Maybelline,Fit Me Fresh Tint SPF50,03,Base,frio,2.3
+OF-0174,Max Factor,Healthy Skin Harmony,Warm Almond,OF-0185,Maybelline,Fit Me Fresh Tint SPF50,06,Base,neutro,2.3
+OF-0232,Maybelline,Instant Age Rewind Eraser,Light,OF-0312,Vogue,Corrector Líquido Mate Natural,Avellana,Corrector,calido,2.3
+OF-0235,Maybelline,Instant Age Rewind Eraser,Warm Light,OF-0314,Vogue,Corrector Líquido Mate Natural,Champan,Corrector,neutro,2.31
+OF-0017,Clinique,Even Better Clinical Serum Foundation SPF 20,WN 54 Honey Wheat,OF-0269,Vogue,Base Líquida Mate Natural,Melocoton,Base,calido,2.32
+OF-0037,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 40 Cream Chamois,OF-0114,Max Factor,Facefinity All Day Flawless 3 in 1,Pearl Beige,Base,frio,2.32
+OF-0054,Clinique,Even Better Concealer,CN 28 Ivory,OF-0097,L'Oréal Paris,Infallible More Than a Concealer,327 Cashmere,Corrector,frio,2.32
+OF-0155,Max Factor,Smooth Effects,Sand,OF-0265,Vogue,Base Líquida Mate Natural,Champan,Base,neutro,2.33
+OF-0004,Clinique,Even Better Makeup SPF 15,WN 46 Golden Neutral,OF-0300,Vogue,Base Polvo Resist,Natural,Base,calido,2.34
+OF-0046,Clinique,Anti-Blemish Solutions Liquid Makeup,WN 46 Golden Neutral,OF-0300,Vogue,Base Polvo Resist,Natural,Base,calido,2.34
+OF-0182,Maybelline,Fit Me Fresh Tint SPF50,02,OF-0254,Vogue,Base Líquida Resist,Natural,Base,neutro,2.35
+OF-0184,Maybelline,Fit Me Fresh Tint SPF50,05,OF-0246,Vogue,Base Líquida Resist,Avena,Base,neutro,2.35
+OF-0084,L'Oréal Paris,Infallible 24H Fresh Wear,455 Natural Buff,OF-0157,Max Factor,Smooth Effects,Natural,Base,frio,2.37
+OF-0111,Max Factor,Facefinity All Day Flawless 3 in 1,Nude,OF-0281,Vogue,Base Resist Glam,Caramelo,Base,neutro,2.37
+OF-0173,Max Factor,Healthy Skin Harmony,Nude,OF-0274,Vogue,Base Líquida Mate Natural,Gitano,Base,neutro,2.37
+OF-0008,Clinique,Even Better Makeup SPF 15,WN 12 Meringue,OF-0213,Maybelline,Fit Me Matte + Poreless,Nude Beige,Base,calido,2.38
+OF-0027,Clinique,Even Better Clinical Serum Foundation SPF 20,WN 12 Meringue,OF-0213,Maybelline,Fit Me Matte + Poreless,Nude Beige,Base,calido,2.38
+OF-0045,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 52 Neutral,OF-0084,L'Oréal Paris,Infallible 24H Fresh Wear,455 Natural Buff,Base,frio,2.39
+OF-0066,L'Oréal Paris,True Match Tinted Serum,3-4 LIGHT-MEDIUM,OF-0169,Max Factor,Healthy Skin Harmony,Rose Beige,Base,frio,2.39
+OF-0079,L'Oréal Paris,Infallible 24H Fresh Wear,235 Miel/Honey,OF-0265,Vogue,Base Líquida Mate Natural,Champan,Base,neutro,2.39
+OF-0103,Max Factor,Facefinity All Day Flawless 3 in 1,Caramel,OF-0250,Vogue,Base Líquida Resist,Caramelo,Base,frio,2.39
+OF-0134,Max Factor,Pan Stik,Olive,OF-0217,Maybelline,Fit Me Matte + Poreless,True Beige,Base,frio,2.39
+OF-0037,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 40 Cream Chamois,OF-0177,Max Factor,Healthy Skin Harmony,Light Ivory,Base,frio,2.4
+OF-0167,Max Factor,Healthy Skin Harmony,Soft Honey,OF-0283,Vogue,Base Resist Glam,Miel,Base,calido,2.4
+OF-0045,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 52 Neutral,OF-0175,Max Factor,Healthy Skin Harmony,Pearl Beige,Base,frio,2.41
+OF-0047,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 58 Honey,OF-0221,Maybelline,Fit Me Matte + Poreless,Rich Tan,Base,frio,2.41
+OF-0090,L'Oréal Paris,Infallible 24H Pro Matte,105 Natural Beige,OF-0298,Vogue,Base Polvo Resist,Capuccino,Base,calido,2.41
+OF-0049,Clinique,Daily Calm Makeup Balm,Light Medium 2,OF-0297,Vogue,Base Polvo Resist,Bronce,Base,neutro,2.42
+OF-0065,L'Oréal Paris,True Match Tinted Serum,2-3 LIGHT,OF-0125,Max Factor,Miracle Touch Liquid Illusion,Golden,Base,neutro,2.42
+OF-0134,Max Factor,Pan Stik,Olive,OF-0181,Maybelline,Fit Me Fresh Tint SPF50,01,Base,frio,2.42
+OF-0241,Maybelline,Superstay Active Wear 30H Corrector,Tono 15,OF-0307,Vogue,Corrector Líquido Resist,Porcelana,Corrector,calido,2.43
+OF-0011,Clinique,Even Better Makeup SPF 15,CN 28 Ivory,OF-0175,Max Factor,Healthy Skin Harmony,Pearl Beige,Base,frio,2.44
+OF-0028,Clinique,Even Better Clinical Serum Foundation SPF 20,CN 28 Ivory,OF-0175,Max Factor,Healthy Skin Harmony,Pearl Beige,Base,frio,2.44
+OF-0031,Clinique,Beyond Perfecting Foundation + Concealer,CN 28 Ivory,OF-0175,Max Factor,Healthy Skin Harmony,Pearl Beige,Base,frio,2.44
+OF-0131,Max Factor,Pan Stik,Bisque Ivory,OF-0246,Vogue,Base Líquida Resist,Avena,Base,neutro,2.44
+OF-0037,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 40 Cream Chamois,OF-0124,Max Factor,Lasting Performance,Fair,Base,frio,2.45
+OF-0115,Max Factor,Facefinity All Day Flawless 3 in 1,Crystal Beige,OF-0252,Vogue,Base Líquida Resist,Glamour,Base,neutro,2.45
+OF-0134,Max Factor,Pan Stik,Olive,OF-0192,Maybelline,Super Stay Active Wear,Buff Beige,Base,frio,2.46
+OF-0176,Max Factor,Healthy Skin Harmony,Crystal Beige,OF-0254,Vogue,Base Líquida Resist,Natural,Base,neutro,2.46
+OF-0008,Clinique,Even Better Makeup SPF 15,WN 12 Meringue,OF-0285,Vogue,Base Resist Glam,Porcelana,Base,calido,2.47
+OF-0027,Clinique,Even Better Clinical Serum Foundation SPF 20,WN 12 Meringue,OF-0285,Vogue,Base Resist Glam,Porcelana,Base,calido,2.47
+OF-0074,L'Oréal Paris,Infallible 24H Fresh Wear,125 Naturel Rose/Natural,OF-0258,Vogue,Base Líquida Resist,Sensual,Base,calido,2.47
+OF-0050,Clinique,Daily Calm Makeup Balm,Light Medium 3,OF-0274,Vogue,Base Líquida Mate Natural,Gitano,Base,neutro,2.48
+OF-0116,Max Factor,Facefinity All Day Flawless 3 in 1,Porcelain,OF-0198,Maybelline,Super Stay Active Wear,Warm Nude,Base,frio,2.49
+OF-0116,Max Factor,Facefinity All Day Flawless 3 in 1,Porcelain,OF-0214,Maybelline,Fit Me Matte + Poreless,Warm Nude,Base,frio,2.49
+OF-0241,Maybelline,Superstay Active Wear 30H Corrector,Tono 15,OF-0320,Vogue,Corrector Líquido Mate Natural,Trigo,Corrector,calido,2.49
+OF-0019,Clinique,Even Better Clinical Serum Foundation SPF 20,CN 20 Fair,OF-0216,Maybelline,Fit Me Matte + Poreless,Natural Beige,Base,frio,2.5
+OF-0002,Clinique,Even Better Makeup SPF 15,WN 54 Honey Wheat,OF-0269,Vogue,Base Líquida Mate Natural,Melocoton,Base,calido,2.51
+OF-0044,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 90 Sand,OF-0187,Maybelline,Fit Me Fresh Tint SPF50,09,Base,frio,2.51
+OF-0067,L'Oréal Paris,True Match Tinted Serum,4-5 MEDIUM,OF-0175,Max Factor,Healthy Skin Harmony,Pearl Beige,Base,frio,2.51
+OF-0121,Max Factor,Lasting Performance,Soft Beige,OF-0281,Vogue,Base Resist Glam,Caramelo,Base,neutro,2.51
+OF-0173,Max Factor,Healthy Skin Harmony,Nude,OF-0281,Vogue,Base Resist Glam,Caramelo,Base,neutro,2.51
+OF-0206,Maybelline,Superstay Lumi-Matte,125,OF-0246,Vogue,Base Líquida Resist,Avena,Base,neutro,2.51
+OF-0139,Max Factor,Facefinity Compact,Pearl Beige,OF-0181,Maybelline,Fit Me Fresh Tint SPF50,01,Base,frio,2.52
+OF-0213,Maybelline,Fit Me Matte + Poreless,Nude Beige,OF-0301,Vogue,Base Polvo Resist,Sensual,Base,calido,2.52
+OF-0038,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 74 Beige,OF-0122,Max Factor,Lasting Performance,Pastelle,Base,frio,2.53
+OF-0049,Clinique,Daily Calm Makeup Balm,Light Medium 2,OF-0089,L'Oréal Paris,Infallible 24H Pro Matte,104 Golden Beige,Base,neutro,2.53
+OF-0048,Clinique,Anti-Blemish Solutions Liquid Makeup,WN 76 Toasted Wheat,OF-0080,L'Oréal Paris,Infallible 24H Fresh Wear,485 Golden Sun,Base,calido,2.54
+OF-0004,Clinique,Even Better Makeup SPF 15,WN 46 Golden Neutral,OF-0285,Vogue,Base Resist Glam,Porcelana,Base,calido,2.55
+OF-0046,Clinique,Anti-Blemish Solutions Liquid Makeup,WN 46 Golden Neutral,OF-0285,Vogue,Base Resist Glam,Porcelana,Base,calido,2.55
+OF-0065,L'Oréal Paris,True Match Tinted Serum,2-3 LIGHT,OF-0170,Max Factor,Healthy Skin Harmony,Sand,Base,neutro,2.55
+OF-0114,Max Factor,Facefinity All Day Flawless 3 in 1,Pearl Beige,OF-0216,Maybelline,Fit Me Matte + Poreless,Natural Beige,Base,frio,2.57
+OF-0115,Max Factor,Facefinity All Day Flawless 3 in 1,Crystal Beige,OF-0274,Vogue,Base Líquida Mate Natural,Gitano,Base,neutro,2.57
+OF-0134,Max Factor,Pan Stik,Olive,OF-0293,Vogue,Base Líquida Essential,Glamour,Base,frio,2.57
+OF-0159,Max Factor,Smooth Effects,Porcelain,OF-0252,Vogue,Base Líquida Resist,Glamour,Base,neutro,2.57
+OF-0042,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 28 Ivory,OF-0215,Maybelline,Fit Me Matte + Poreless,Buff Beige,Base,frio,2.58
+OF-0043,Clinique,Anti-Blemish Solutions Liquid Makeup,WN 38 Stone,OF-0258,Vogue,Base Líquida Resist,Sensual,Base,calido,2.58
+OF-0043,Clinique,Anti-Blemish Solutions Liquid Makeup,WN 38 Stone,OF-0286,Vogue,Base Resist Glam,Trigo,Base,calido,2.58
+OF-0093,L'Oréal Paris,Infallible 24H Pro Matte,108 Caramel Beige,OF-0290,Vogue,Base Líquida Essential,Bronce,Base,calido,2.58
+OF-0004,Clinique,Even Better Makeup SPF 15,WN 46 Golden Neutral,OF-0284,Vogue,Base Resist Glam,Petalo,Base,calido,2.59
+OF-0004,Clinique,Even Better Makeup SPF 15,WN 46 Golden Neutral,OF-0298,Vogue,Base Polvo Resist,Capuccino,Base,calido,2.59
+OF-0037,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 40 Cream Chamois,OF-0129,Max Factor,Miracle Touch Liquid Illusion,Creamy Ivory,Base,frio,2.59
+OF-0037,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 40 Cream Chamois,OF-0135,Max Factor,Pan Stik,Fair,Base,frio,2.59
+OF-0037,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 40 Cream Chamois,OF-0149,Max Factor,Facefinity Compact,Porcelain,Base,frio,2.59
+OF-0046,Clinique,Anti-Blemish Solutions Liquid Makeup,WN 46 Golden Neutral,OF-0284,Vogue,Base Resist Glam,Petalo,Base,calido,2.59
+OF-0046,Clinique,Anti-Blemish Solutions Liquid Makeup,WN 46 Golden Neutral,OF-0298,Vogue,Base Polvo Resist,Capuccino,Base,calido,2.59
+OF-0051,Clinique,Daily Calm Makeup Balm,Light Medium 1,OF-0274,Vogue,Base Líquida Mate Natural,Gitano,Base,neutro,2.59
+OF-0111,Max Factor,Facefinity All Day Flawless 3 in 1,Nude,OF-0185,Maybelline,Fit Me Fresh Tint SPF50,06,Base,neutro,2.59
+OF-0134,Max Factor,Pan Stik,Olive,OF-0219,Maybelline,Fit Me Matte + Poreless,Natural Buff,Base,frio,2.6
+OF-0079,L'Oréal Paris,Infallible 24H Fresh Wear,235 Miel/Honey,OF-0109,Max Factor,Facefinity All Day Flawless 3 in 1,Beige,Base,neutro,2.61
+OF-0079,L'Oréal Paris,Infallible 24H Fresh Wear,235 Miel/Honey,OF-0147,Max Factor,Facefinity Compact,Natural,Base,neutro,2.61
+OF-0009,Clinique,Even Better Makeup SPF 15,CN 52 Neutral,OF-0156,Max Factor,Smooth Effects,Buff Beige,Base,frio,2.62
+OF-0018,Clinique,Even Better Clinical Serum Foundation SPF 20,CN 52 Neutral,OF-0156,Max Factor,Smooth Effects,Buff Beige,Base,frio,2.62
+OF-0030,Clinique,Beyond Perfecting Foundation + Concealer,CN 52 Neutral,OF-0156,Max Factor,Smooth Effects,Buff Beige,Base,frio,2.62
+OF-0087,L'Oréal Paris,Infallible 24H Pro Matte,101.5 Ivory Buff,OF-0131,Max Factor,Pan Stik,Bisque Ivory,Base,neutro,2.62
+OF-0114,Max Factor,Facefinity All Day Flawless 3 in 1,Pearl Beige,OF-0215,Maybelline,Fit Me Matte + Poreless,Buff Beige,Base,frio,2.62
+OF-0015,Clinique,Even Better Makeup SPF 15,WN 04 Bone,OF-0193,Maybelline,Super Stay Active Wear,Classic Ivory,Base,calido,2.63
+OF-0015,Clinique,Even Better Makeup SPF 15,WN 04 Bone,OF-0212,Maybelline,Fit Me Matte + Poreless,Classic Ivory,Base,calido,2.63
+OF-0041,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 70 Vanilla,OF-0104,Max Factor,Facefinity All Day Flawless 3 in 1,Bronze,Base,frio,2.63
+OF-0044,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 90 Sand,OF-0152,Max Factor,Smooth Effects,Bronze,Base,frio,2.63
+OF-0154,Max Factor,Smooth Effects,Rose Beige,OF-0265,Vogue,Base Líquida Mate Natural,Champan,Base,neutro,2.64
+OF-0206,Maybelline,Superstay Lumi-Matte,125,OF-0254,Vogue,Base Líquida Resist,Natural,Base,neutro,2.64
+OF-0049,Clinique,Daily Calm Makeup Balm,Light Medium 2,OF-0186,Maybelline,Fit Me Fresh Tint SPF50,07,Base,neutro,2.65
+OF-0080,L'Oréal Paris,Infallible 24H Fresh Wear,485 Golden Sun,OF-0255,Vogue,Base Líquida Resist,Nuez,Base,calido,2.65
+OF-0175,Max Factor,Healthy Skin Harmony,Pearl Beige,OF-0219,Maybelline,Fit Me Matte + Poreless,Natural Buff,Base,frio,2.65
+OF-0097,L'Oréal Paris,Infallible More Than a Concealer,327 Cashmere,OF-0237,Maybelline,Instant Age Rewind Eraser,Fair,Corrector,frio,2.67
+OF-0128,Max Factor,Miracle Touch Liquid Illusion,Warm Almond,OF-0265,Vogue,Base Líquida Mate Natural,Champan,Base,neutro,2.67
+OF-0188,Maybelline,Fit Me Fresh Tint SPF50,2.5 AS,OF-0268,Vogue,Base Líquida Mate Natural,Glamour,Base,neutro,2.67
+OF-0062,Clinique,Even Better Concealer,CN 20 Fair,OF-0237,Maybelline,Instant Age Rewind Eraser,Fair,Corrector,frio,2.68
+OF-0066,L'Oréal Paris,True Match Tinted Serum,3-4 LIGHT-MEDIUM,OF-0152,Max Factor,Smooth Effects,Bronze,Base,frio,2.68
+OF-0077,L'Oréal Paris,Infallible 24H Fresh Wear,465 Sand,OF-0255,Vogue,Base Líquida Resist,Nuez,Base,calido,2.68
+OF-0243,Maybelline,Superstay Active Wear 30H Corrector,Tono 20,OF-0304,Vogue,Corrector Líquido Resist,Avena,Corrector,neutro,2.68
+OF-0005,Clinique,Even Better Makeup SPF 15,WN 38 Stone,OF-0285,Vogue,Base Resist Glam,Porcelana,Base,calido,2.69
+OF-0026,Clinique,Even Better Clinical Serum Foundation SPF 20,WN 38 Stone,OF-0285,Vogue,Base Resist Glam,Porcelana,Base,calido,2.69
+OF-0158,Max Factor,Smooth Effects,Creamy Ivory,OF-0184,Maybelline,Fit Me Fresh Tint SPF50,05,Base,neutro,2.7
+OF-0045,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 52 Neutral,OF-0177,Max Factor,Healthy Skin Harmony,Light Ivory,Base,frio,2.71
+OF-0067,L'Oréal Paris,True Match Tinted Serum,4-5 MEDIUM,OF-0192,Maybelline,Super Stay Active Wear,Buff Beige,Base,frio,2.72
+OF-0081,L'Oréal Paris,Infallible 24H Fresh Wear,300 Ambre/Amber,OF-0299,Vogue,Base Polvo Resist,Miel,Base,calido,2.72
+OF-0206,Maybelline,Superstay Lumi-Matte,125,OF-0268,Vogue,Base Líquida Mate Natural,Glamour,Base,neutro,2.72
+OF-0083,L'Oréal Paris,Infallible 24H Fresh Wear,110 Vanille Rose,OF-0198,Maybelline,Super Stay Active Wear,Warm Nude,Base,frio,2.73
+OF-0083,L'Oréal Paris,Infallible 24H Fresh Wear,110 Vanille Rose,OF-0214,Maybelline,Fit Me Matte + Poreless,Warm Nude,Base,frio,2.73
+OF-0113,Max Factor,Facefinity All Day Flawless 3 in 1,Light Ivory,OF-0252,Vogue,Base Líquida Resist,Glamour,Base,neutro,2.73
+OF-0151,Max Factor,Smooth Effects,Natural Tan,OF-0255,Vogue,Base Líquida Resist,Nuez,Base,calido,2.73
+OF-0160,Max Factor,Healthy Skin Harmony,Porcelain,OF-0183,Maybelline,Fit Me Fresh Tint SPF50,03,Base,frio,2.73
+OF-0048,Clinique,Anti-Blemish Solutions Liquid Makeup,WN 76 Toasted Wheat,OF-0167,Max Factor,Healthy Skin Harmony,Soft Honey,Base,calido,2.74
+OF-0059,Clinique,Even Better Concealer,CN 70 Vanilla,OF-0179,Max Factor,Mastertouch Concealer,Fair,Corrector,frio,2.74
+OF-0038,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 74 Beige,OF-0119,Max Factor,Lasting Performance,Honey Beige,Base,frio,2.75
+OF-0131,Max Factor,Pan Stik,Bisque Ivory,OF-0206,Maybelline,Superstay Lumi-Matte,125,Base,neutro,2.75
+OF-0078,L'Oréal Paris,Infallible 24H Fresh Wear,470 Radiant Honey,OF-0255,Vogue,Base Líquida Resist,Nuez,Base,calido,2.76
+OF-0051,Clinique,Daily Calm Makeup Balm,Light Medium 1,OF-0186,Maybelline,Fit Me Fresh Tint SPF50,07,Base,neutro,2.77
+OF-0145,Max Factor,Facefinity Compact,Golden,OF-0185,Maybelline,Fit Me Fresh Tint SPF50,06,Base,neutro,2.77
+OF-0019,Clinique,Even Better Clinical Serum Foundation SPF 20,CN 20 Fair,OF-0116,Max Factor,Facefinity All Day Flawless 3 in 1,Porcelain,Base,frio,2.78
+OF-0038,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 74 Beige,OF-0169,Max Factor,Healthy Skin Harmony,Rose Beige,Base,frio,2.78
+OF-0043,Clinique,Anti-Blemish Solutions Liquid Makeup,WN 38 Stone,OF-0300,Vogue,Base Polvo Resist,Natural,Base,calido,2.78
+OF-0011,Clinique,Even Better Makeup SPF 15,CN 28 Ivory,OF-0225,Maybelline,Fit Me Matte + Poreless,Light Beige,Base,frio,2.79
+OF-0028,Clinique,Even Better Clinical Serum Foundation SPF 20,CN 28 Ivory,OF-0225,Maybelline,Fit Me Matte + Poreless,Light Beige,Base,frio,2.79
+OF-0031,Clinique,Beyond Perfecting Foundation + Concealer,CN 28 Ivory,OF-0225,Maybelline,Fit Me Matte + Poreless,Light Beige,Base,frio,2.79
+OF-0047,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 58 Honey,OF-0197,Maybelline,Super Stay Active Wear,Sun Beige,Base,frio,2.79
+OF-0047,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 58 Honey,OF-0220,Maybelline,Fit Me Matte + Poreless,Pure Beige,Base,frio,2.79
+OF-0083,L'Oréal Paris,Infallible 24H Fresh Wear,110 Vanille Rose,OF-0114,Max Factor,Facefinity All Day Flawless 3 in 1,Pearl Beige,Base,frio,2.79
+OF-0005,Clinique,Even Better Makeup SPF 15,WN 38 Stone,OF-0301,Vogue,Base Polvo Resist,Sensual,Base,calido,2.8
+OF-0026,Clinique,Even Better Clinical Serum Foundation SPF 20,WN 38 Stone,OF-0301,Vogue,Base Polvo Resist,Sensual,Base,calido,2.8
+OF-0041,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 70 Vanilla,OF-0226,Maybelline,Fit Me Matte + Poreless,Classic Beige,Base,frio,2.8
+OF-0042,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 28 Ivory,OF-0219,Maybelline,Fit Me Matte + Poreless,Natural Buff,Base,frio,2.8
+OF-0044,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 90 Sand,OF-0104,Max Factor,Facefinity All Day Flawless 3 in 1,Bronze,Base,frio,2.8
+OF-0087,L'Oréal Paris,Infallible 24H Pro Matte,101.5 Ivory Buff,OF-0176,Max Factor,Healthy Skin Harmony,Crystal Beige,Base,neutro,2.8
+OF-0207,Maybelline,Superstay Lumi-Matte,120,OF-0295,Vogue,Base Polvo Resist,Pétalo,Base,neutro,2.8
+OF-0038,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 74 Beige,OF-0066,L'Oréal Paris,True Match Tinted Serum,3-4 LIGHT-MEDIUM,Base,frio,2.81
+OF-0042,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 28 Ivory,OF-0114,Max Factor,Facefinity All Day Flawless 3 in 1,Pearl Beige,Base,frio,2.81
+OF-0088,L'Oréal Paris,Infallible 24H Pro Matte,102 Shell Beige,OF-0197,Maybelline,Super Stay Active Wear,Sun Beige,Base,frio,2.81
+OF-0088,L'Oréal Paris,Infallible 24H Pro Matte,102 Shell Beige,OF-0220,Maybelline,Fit Me Matte + Poreless,Pure Beige,Base,frio,2.81
+OF-0151,Max Factor,Smooth Effects,Natural Tan,OF-0253,Vogue,Base Líquida Resist,Miel,Base,calido,2.81
+OF-0207,Maybelline,Superstay Lumi-Matte,120,OF-0246,Vogue,Base Líquida Resist,Avena,Base,neutro,2.81
+OF-0016,Clinique,Even Better Makeup SPF 15,CN 08 Linen,OF-0195,Maybelline,Super Stay Active Wear,Natural Ivory,Base,frio,2.82
+OF-0016,Clinique,Even Better Makeup SPF 15,CN 08 Linen,OF-0211,Maybelline,Fit Me Matte + Poreless,Natural Ivory,Base,frio,2.82
+OF-0040,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 10 Alabaster,OF-0116,Max Factor,Facefinity All Day Flawless 3 in 1,Porcelain,Base,frio,2.82
+OF-0077,L'Oréal Paris,Infallible 24H Fresh Wear,465 Sand,OF-0249,Vogue,Base Líquida Resist,Capuccino,Base,calido,2.82
+OF-0045,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 52 Neutral,OF-0112,Max Factor,Facefinity All Day Flawless 3 in 1,Warm Almond,Base,frio,2.83
+OF-0045,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 52 Neutral,OF-0148,Max Factor,Facefinity Compact,Ivory,Base,frio,2.83
+OF-0048,Clinique,Anti-Blemish Solutions Liquid Makeup,WN 76 Toasted Wheat,OF-0200,Maybelline,Superstay Lumi-Matte,330,Base,calido,2.83
+OF-0082,L'Oréal Paris,Infallible 24H Fresh Wear,320 Caramel/Toffee,OF-0142,Max Factor,Facefinity Compact,Caramel,Base,frio,2.83
+OF-0048,Clinique,Anti-Blemish Solutions Liquid Makeup,WN 76 Toasted Wheat,OF-0282,Vogue,Base Resist Glam,Glamour,Base,calido,2.84
+OF-0081,L'Oréal Paris,Infallible 24H Fresh Wear,300 Ambre/Amber,OF-0151,Max Factor,Smooth Effects,Natural Tan,Base,calido,2.84
+OF-0084,L'Oréal Paris,Infallible 24H Fresh Wear,455 Natural Buff,OF-0129,Max Factor,Miracle Touch Liquid Illusion,Creamy Ivory,Base,frio,2.84
+OF-0084,L'Oréal Paris,Infallible 24H Fresh Wear,455 Natural Buff,OF-0135,Max Factor,Pan Stik,Fair,Base,frio,2.84
+OF-0084,L'Oréal Paris,Infallible 24H Fresh Wear,455 Natural Buff,OF-0149,Max Factor,Facefinity Compact,Porcelain,Base,frio,2.84
+OF-0160,Max Factor,Healthy Skin Harmony,Porcelain,OF-0215,Maybelline,Fit Me Matte + Poreless,Buff Beige,Base,frio,2.84
+OF-0158,Max Factor,Smooth Effects,Creamy Ivory,OF-0254,Vogue,Base Líquida Resist,Natural,Base,neutro,2.85
+OF-0019,Clinique,Even Better Clinical Serum Foundation SPF 20,CN 20 Fair,OF-0114,Max Factor,Facefinity All Day Flawless 3 in 1,Pearl Beige,Base,frio,2.87
+OF-0084,L'Oréal Paris,Infallible 24H Fresh Wear,455 Natural Buff,OF-0116,Max Factor,Facefinity All Day Flawless 3 in 1,Porcelain,Base,frio,2.87
+OF-0125,Max Factor,Miracle Touch Liquid Illusion,Golden,OF-0281,Vogue,Base Resist Glam,Caramelo,Base,neutro,2.87
+OF-0004,Clinique,Even Better Makeup SPF 15,WN 46 Golden Neutral,OF-0205,Maybelline,Superstay Lumi-Matte,128,Base,calido,2.88
+OF-0046,Clinique,Anti-Blemish Solutions Liquid Makeup,WN 46 Golden Neutral,OF-0205,Maybelline,Superstay Lumi-Matte,128,Base,calido,2.88
+OF-0058,Clinique,Even Better Concealer,WN 38 Stone,OF-0312,Vogue,Corrector Líquido Mate Natural,Avellana,Corrector,calido,2.88
+OF-0158,Max Factor,Smooth Effects,Creamy Ivory,OF-0246,Vogue,Base Líquida Resist,Avena,Base,neutro,2.88
+OF-0205,Maybelline,Superstay Lumi-Matte,128,OF-0277,Vogue,Base Resist Glam,Crema,Base,calido,2.88
+OF-0005,Clinique,Even Better Makeup SPF 15,WN 38 Stone,OF-0284,Vogue,Base Resist Glam,Petalo,Base,calido,2.89
+OF-0026,Clinique,Even Better Clinical Serum Foundation SPF 20,WN 38 Stone,OF-0284,Vogue,Base Resist Glam,Petalo,Base,calido,2.89
+OF-0041,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 70 Vanilla,OF-0122,Max Factor,Lasting Performance,Pastelle,Base,frio,2.89
+OF-0042,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 28 Ivory,OF-0160,Max Factor,Healthy Skin Harmony,Porcelain,Base,frio,2.89
+OF-0137,Max Factor,Pan Stik,Nouveau Beige,OF-0246,Vogue,Base Líquida Resist,Avena,Base,neutro,2.89
+OF-0004,Clinique,Even Better Makeup SPF 15,WN 46 Golden Neutral,OF-0074,L'Oréal Paris,Infallible 24H Fresh Wear,125 Naturel Rose/Natural,Base,calido,2.91
+OF-0012,Clinique,Even Better Makeup SPF 15,CN 70 Vanilla,OF-0177,Max Factor,Healthy Skin Harmony,Light Ivory,Base,frio,2.91
+OF-0020,Clinique,Even Better Clinical Serum Foundation SPF 20,CN 70 Vanilla,OF-0177,Max Factor,Healthy Skin Harmony,Light Ivory,Base,frio,2.91
+OF-0035,Clinique,Beyond Perfecting Foundation + Concealer,CN 70 Vanilla,OF-0177,Max Factor,Healthy Skin Harmony,Light Ivory,Base,frio,2.91
+OF-0046,Clinique,Anti-Blemish Solutions Liquid Makeup,WN 46 Golden Neutral,OF-0074,L'Oréal Paris,Infallible 24H Fresh Wear,125 Naturel Rose/Natural,Base,calido,2.91
+OF-0075,L'Oréal Paris,Infallible 24H Fresh Wear,140 Golden beige,OF-0280,Vogue,Base Resist Glam,Capuccino,Base,calido,2.91
+OF-0167,Max Factor,Healthy Skin Harmony,Soft Honey,OF-0271,Vogue,Base Líquida Mate Natural,Panela,Base,calido,2.91
+OF-0205,Maybelline,Superstay Lumi-Matte,128,OF-0285,Vogue,Base Resist Glam,Porcelana,Base,calido,2.91
+OF-0206,Maybelline,Superstay Lumi-Matte,125,OF-0274,Vogue,Base Líquida Mate Natural,Gitano,Base,neutro,2.91
+OF-0007,Clinique,Even Better Makeup SPF 15,WN 48 Oat,OF-0296,Vogue,Base Polvo Resist,Avellana,Base,calido,2.92
+OF-0034,Clinique,Beyond Perfecting Foundation + Concealer,WN 48 Oat,OF-0296,Vogue,Base Polvo Resist,Avellana,Base,calido,2.92
+OF-0049,Clinique,Daily Calm Makeup Balm,Light Medium 2,OF-0194,Maybelline,Super Stay Active Wear,Natural Beige,Base,neutro,2.92
+OF-0086,L'Oréal Paris,Infallible 24H Pro Matte,100 True Alabaster,OF-0272,Vogue,Base Líquida Mate Natural,Petalo,Base,neutro,2.92
+OF-0101,L'Oréal Paris,True Match Eye Cream in a Concealer,Light W3-4,OF-0312,Vogue,Corrector Líquido Mate Natural,Avellana,Corrector,calido,2.92
+OF-0003,Clinique,Even Better Makeup SPF 15,WN 22 Ecru,OF-0091,L'Oréal Paris,Infallible 24H Pro Matte,106 Sun Beige,Base,calido,2.93
+OF-0080,L'Oréal Paris,Infallible 24H Fresh Wear,485 Golden Sun,OF-0280,Vogue,Base Resist Glam,Capuccino,Base,calido,2.93
+OF-0158,Max Factor,Smooth Effects,Creamy Ivory,OF-0206,Maybelline,Superstay Lumi-Matte,125,Base,neutro,2.93
+OF-0173,Max Factor,Healthy Skin Harmony,Nude,OF-0184,Maybelline,Fit Me Fresh Tint SPF50,05,Base,neutro,2.93
+OF-0175,Max Factor,Healthy Skin Harmony,Pearl Beige,OF-0215,Maybelline,Fit Me Matte + Poreless,Buff Beige,Base,frio,2.93
+OF-0084,L'Oréal Paris,Infallible 24H Fresh Wear,455 Natural Buff,OF-0156,Max Factor,Smooth Effects,Buff Beige,Base,frio,2.94
+OF-0004,Clinique,Even Better Makeup SPF 15,WN 46 Golden Neutral,OF-0286,Vogue,Base Resist Glam,Trigo,Base,calido,2.95
+OF-0011,Clinique,Even Better Makeup SPF 15,CN 28 Ivory,OF-0134,Max Factor,Pan Stik,Olive,Base,frio,2.95
+OF-0028,Clinique,Even Better Clinical Serum Foundation SPF 20,CN 28 Ivory,OF-0134,Max Factor,Pan Stik,Olive,Base,frio,2.95
+OF-0031,Clinique,Beyond Perfecting Foundation + Concealer,CN 28 Ivory,OF-0134,Max Factor,Pan Stik,Olive,Base,frio,2.95
+OF-0045,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 52 Neutral,OF-0157,Max Factor,Smooth Effects,Natural,Base,frio,2.95
+OF-0046,Clinique,Anti-Blemish Solutions Liquid Makeup,WN 46 Golden Neutral,OF-0286,Vogue,Base Resist Glam,Trigo,Base,calido,2.95
+OF-0087,L'Oréal Paris,Infallible 24H Pro Matte,101.5 Ivory Buff,OF-0158,Max Factor,Smooth Effects,Creamy Ivory,Base,neutro,2.95
+OF-0085,L'Oréal Paris,Infallible 24H Pro Matte,103 Natural Buff,OF-0192,Maybelline,Super Stay Active Wear,Buff Beige,Base,frio,2.96
+OF-0184,Maybelline,Fit Me Fresh Tint SPF50,05,OF-0252,Vogue,Base Líquida Resist,Glamour,Base,neutro,2.96
+OF-0223,Maybelline,Fit Me Matte + Poreless,Warm Honey,OF-0294,Vogue,Base Líquida Essential,Petalo,Base,frio,2.96
+OF-0232,Maybelline,Instant Age Rewind Eraser,Light,OF-0320,Vogue,Corrector Líquido Mate Natural,Trigo,Corrector,calido,2.96
+OF-0022,Clinique,Even Better Clinical Serum Foundation SPF 20,CN 10 Alabaster,OF-0292,Vogue,Base Líquida Essential,Natural,Base,frio,2.97
+OF-0033,Clinique,Beyond Perfecting Foundation + Concealer,CN 10 Alabaster,OF-0292,Vogue,Base Líquida Essential,Natural,Base,frio,2.97
+OF-0042,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 28 Ivory,OF-0222,Maybelline,Fit Me Matte + Poreless,Sun Beige,Base,frio,2.97
+OF-0054,Clinique,Even Better Concealer,CN 28 Ivory,OF-0095,L'Oréal Paris,Infallible More Than a Concealer,324 Oatmeal,Corrector,frio,2.97
+OF-0067,L'Oréal Paris,True Match Tinted Serum,4-5 MEDIUM,OF-0156,Max Factor,Smooth Effects,Buff Beige,Base,frio,2.97
+OF-0242,Maybelline,Superstay Active Wear 30H Corrector,Tono 18,OF-0310,Vogue,Corrector Líquido Resist,Natural,Corrector,calido,2.97
+OF-0009,Clinique,Even Better Makeup SPF 15,CN 52 Neutral,OF-0084,L'Oréal Paris,Infallible 24H Fresh Wear,455 Natural Buff,Base,frio,2.98
+OF-0018,Clinique,Even Better Clinical Serum Foundation SPF 20,CN 52 Neutral,OF-0084,L'Oréal Paris,Infallible 24H Fresh Wear,455 Natural Buff,Base,frio,2.98
+OF-0030,Clinique,Beyond Perfecting Foundation + Concealer,CN 52 Neutral,OF-0084,L'Oréal Paris,Infallible 24H Fresh Wear,455 Natural Buff,Base,frio,2.98
+OF-0040,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 10 Alabaster,OF-0160,Max Factor,Healthy Skin Harmony,Porcelain,Base,frio,2.98
+OF-0041,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 70 Vanilla,OF-0120,Max Factor,Lasting Performance,Natural Beige,Base,frio,2.98
+OF-0044,Clinique,Anti-Blemish Solutions Liquid Makeup,CN 90 Sand,OF-0142,Max Factor,Facefinity Compact,Caramel,Base,frio,2.98
+OF-0083,L'Oréal Paris,Infallible 24H Fresh Wear,110 Vanille Rose,OF-0160,Max Factor,Healthy Skin Harmony,Porcelain,Base,frio,2.98
+OF-0087,L'Oréal Paris,Infallible 24H Pro Matte,101.5 Ivory Buff,OF-0159,Max Factor,Smooth Effects,Porcelain,Base,neutro,2.98
+OF-0087,L'Oréal Paris,Infallible 24H Pro Matte,101.5 Ivory Buff,OF-0184,Maybelline,Fit Me Fresh Tint SPF50,05,Base,neutro,2.98
+OF-0091,L'Oréal Paris,Infallible 24H Pro Matte,106 Sun Beige,OF-0282,Vogue,Base Resist Glam,Glamour,Base,calido,2.99
+OF-0109,Max Factor,Facefinity All Day Flawless 3 in 1,Beige,OF-0281,Vogue,Base Resist Glam,Caramelo,Base,neutro,2.99
+OF-0147,Max Factor,Facefinity Compact,Natural,OF-0281,Vogue,Base Resist Glam,Caramelo,Base,neutro,2.99
+OF-0183,Maybelline,Fit Me Fresh Tint SPF50,03,OF-0292,Vogue,Base Líquida Essential,Natural,Base,frio,2.99
+OF-0013,Clinique,Even Better Makeup SPF 15,CN 74 Beige,OF-0187,Maybelline,Fit Me Fresh Tint SPF50,09,Base,frio,3.0
+OF-0029,Clinique,Even Better Clinical Serum Foundation SPF 20,CN 74 Beige,OF-0187,Maybelline,Fit Me Fresh Tint SPF50,09,Base,frio,3.0
+OF-0061,Clinique,Even Better Concealer,CN 10 Alabaster,OF-0237,Maybelline,Instant Age Rewind Eraser,Fair,Corrector,frio,3.0
+OF-0207,Maybelline,Superstay Lumi-Matte,120,OF-0254,Vogue,Base Líquida Resist,Natural,Base,neutro,3.0

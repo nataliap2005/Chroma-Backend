@@ -40,3 +40,6 @@ dist/
 *.sqlite
 *.sqlite3
 *.db
+
+# ETL: fotos descargadas de las tiendas (se copian a Chroma-App/public/static/img/products/oficial)
+etl/fotos_productos/
