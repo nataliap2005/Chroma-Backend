@@ -267,8 +267,3 @@ El repositorio y la documentación complementaria reúnen las decisiones estrat�
 | 🖌️ | **María Paula Pinillo** | Interfaz, tiendas y fotos de productos |
 | 💄 | **Estefanía Hernández** · [GitHub](https://github.com/HEstefaniaR) | Tonos y paletas, planes, pagos, administración y publicación de la beta |
 
-<div align="center">
-
-**Chroma** · Belleza personalizada con datos
-
-</div>
